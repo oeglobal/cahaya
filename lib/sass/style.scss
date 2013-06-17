@@ -8,19 +8,28 @@ $em-base: 16px !default;
 
 /* colors */
 // $blue: #4192B7;
+$text: #666;
 $blue: #177FA9;
 $blue-topnav: #54A1C5;
 $blue-delimeter: #4391B2;
 $white: #FFFFFF;
 $grey-background: #E0E0E0;
+$grey-text: #949494;
 
 body {
 	background: url('../../images/background.jpg') no-repeat top center $grey-background;
+}
 
+.top_login {
+	background-color: $blue-topnav;
+	height: emCalc(16px);
+	margin-bottom: emCalc(45px);
 }
 
 .header {
 	color: $blue;
+	margin-bottom: emCalc(50px);
+
 	.logo 	  { font-size: emCalc(42px); }
 	.sublogo1 {	
 				font-size: emCalc(24px); 
@@ -53,3 +62,29 @@ body {
 		padding: none;
 	}
 }
+
+.content {
+	background-color: $white;
+	border-bottom: emCalc(14px) solid $blue;
+	margin-bottom: emCalc(20px);
+}
+
+.inside-left {
+	background: url('../../images/background-inside.jpg') no-repeat top center;
+	min-height: emCalc(500px);
+}
+
+.footer {
+	li {
+		list-style-type: none;
+	}
+	a { 
+		color: $grey-text;
+		font-size: emCalc(12px);
+	}
+	h4 {
+		text-transform: uppercase;
+		color: $grey-text;
+	}
+}
+

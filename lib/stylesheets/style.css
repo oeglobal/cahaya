@@ -1,47 +1,55 @@
 /* utils */
 /* colors */
-/* line 17, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 body {
   background: url("../../images/background.jpg") no-repeat top center #e0e0e0;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
+.top_login {
+  background-color: #54a1c5;
+  height: 1em;
+  margin-bottom: 2.8125em;
+}
+
+/* line 29, ../sass/style.scss */
 .header {
   color: #177fa9;
+  margin-bottom: 3.125em;
 }
-/* line 24, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 .header .logo {
   font-size: 2.625em;
 }
-/* line 25, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .header .sublogo1 {
   font-size: 1.5em;
   text-transform: uppercase;
 }
-/* line 29, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .header .sublogo2 {
   font-size: 1.375em;
 }
-/* line 30, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .header .tagline {
   font-size: 1.375em;
   text-align: right;
 }
 
-/* line 36, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .topnav {
   background-color: #177fa9;
 }
-/* line 39, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .topnav ul {
   list-style-type: none;
   margin-bottom: 0;
 }
-/* line 41, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .topnav li {
   display: inline-block;
 }
-/* line 42, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .topnav a {
   color: white;
   font-size: 1.0625em;
@@ -50,8 +58,36 @@ body {
   padding: 0 0.625em;
   border-right: 0.0625em solid #4391b2;
 }
-/* line 51, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 .topnav li:last-child a {
   border-right: none;
   padding: none;
+}
+
+/* line 66, ../sass/style.scss */
+.content {
+  background-color: white;
+  border-bottom: 0.875em solid #177fa9;
+  margin-bottom: 1.25em;
+}
+
+/* line 72, ../sass/style.scss */
+.inside-left {
+  background: url("../../images/background-inside.jpg") no-repeat top center;
+  min-height: 31.25em;
+}
+
+/* line 78, ../sass/style.scss */
+.footer li {
+  list-style-type: none;
+}
+/* line 81, ../sass/style.scss */
+.footer a {
+  color: #949494;
+  font-size: 0.75em;
+}
+/* line 85, ../sass/style.scss */
+.footer h4 {
+  text-transform: uppercase;
+  color: #949494;
 }
