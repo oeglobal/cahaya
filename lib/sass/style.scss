@@ -1,0 +1,55 @@
+/* utils */
+$em-base: 16px !default;
+
+// Working in ems is annoying. Think in pixels by using this handy function, emCalc(#px)
+@function emCalc($pxWidth) {
+  @return $pxWidth / $em-base * 1em;
+}
+
+/* colors */
+// $blue: #4192B7;
+$blue: #177FA9;
+$blue-topnav: #54A1C5;
+$blue-delimeter: #4391B2;
+$white: #FFFFFF;
+$grey-background: #E0E0E0;
+
+body {
+	background: url('../../images/background.jpg') no-repeat top center $grey-background;
+
+}
+
+.header {
+	color: $blue;
+	.logo 	  { font-size: emCalc(42px); }
+	.sublogo1 {	
+				font-size: emCalc(24px); 
+				text-transform: uppercase;
+			  }
+	.sublogo2 {	font-size: emCalc(22px); }
+	.tagline {
+		font-size: emCalc(22px);
+		text-align: right;
+	}
+}
+
+.topnav {
+	background-color: $blue;
+	
+	ul { list-style-type: none;
+		 margin-bottom: 0; }
+	li { display: inline-block; }
+	a {
+		color: $white;
+		font-size: emCalc(17px);
+		line-height: emCalc(44px);
+		text-transform: uppercase;
+		
+		padding: 0 emCalc(10px);
+		border-right: emCalc(1px) solid $blue-delimeter;
+	}
+	li:last-child a {
+		border-right: none;
+		padding: none;
+	}
+}

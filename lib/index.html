@@ -1,33 +1,27 @@
+
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
 <head>
 	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Foundation 4</title>
 
-  	<link href="<?php echo get_stylesheet_directory_uri(); ?>/lib/stylesheets/app.css" media="screen, projector, print" rel="stylesheet" type="text/css" />
-  	<link href="<?php echo get_stylesheet_directory_uri(); ?>/lib/stylesheets/style.css" media="screen, projector, print" rel="stylesheet" type="text/css" />
+  
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  
 
-  	<?php wp_head(); ?>
+  <script src="javascripts/vendor/custom.modernizr.js"></script>
+
 </head>
-
-<body <?php body_class($class); ?>>
-
-	<div class="row header">
-		<div class="small-6 columns">
-			<div class="logo">OCWC Global 2013</div>
-			<div class="sublogo1">Ljubljana, Slovenia</div>
-			<div class="sublogo2">23 - 25 April 2014</div>
-		</div>
-		<div class="small-6 columns">
-			<div class="tagline">Exploring the <br />way information is</br>shared</div>
-		</div>
-	</div>
+<body>
 
 	<div class="row">
-		<div class="small-12 columns topnav">
-			<ul>
-				<li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Registration</a></li><li><a href="#">Program</a></li><li><a href="#">Announcements</a></li>
-			</ul>
+		<div class="large-12 columns">
+			<h2>Welcome to Foundation</h2>
+			<p>This is version 4.2.2.</p>
+			<hr />
 		</div>
 	</div>
 
@@ -103,7 +97,45 @@
 		</div>
 	</div>
 
-
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="javascripts/foundation/foundation.js"></script>
+	
+	<script src="javascripts/foundation/foundation.placeholder.js"></script>
+	
+	<script src="javascripts/foundation/foundation.reveal.js"></script>
+	
+	<script src="javascripts/foundation/foundation.forms.js"></script>
+	
+	<script src="javascripts/foundation/foundation.orbit.js"></script>
+	
+	<script src="javascripts/foundation/foundation.alerts.js"></script>
+	
+	<script src="javascripts/foundation/foundation.tooltips.js"></script>
+	
+	<script src="javascripts/foundation/foundation.section.js"></script>
+	
+	<script src="javascripts/foundation/foundation.cookie.js"></script>
+	
+	<script src="javascripts/foundation/foundation.clearing.js"></script>
+	
+	<script src="javascripts/foundation/foundation.topbar.js"></script>
+	
+	<script src="javascripts/foundation/foundation.magellan.js"></script>
+	
+	<script src="javascripts/foundation/foundation.interchange.js"></script>
+	
+	<script src="javascripts/foundation/foundation.joyride.js"></script>
+	
+	<script src="javascripts/foundation/foundation.dropdown.js"></script>
+	
+  
+  <script>
+    $(document).foundation();
+  </script>
 </body>
 </html>
-
