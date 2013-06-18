@@ -65,7 +65,7 @@ body {
 }
 
 /* line 66, ../sass/style.scss */
-.content {
+.content_wrapper {
   background-color: white;
   border-bottom: 0.875em solid #177fa9;
   margin-bottom: 1.25em;
@@ -82,7 +82,7 @@ body {
   list-style-type: none;
 }
 /* line 81, ../sass/style.scss */
-.footer a {
+.footer a, .footer .textwidget {
   color: #949494;
   font-size: 0.75em;
 }
@@ -90,4 +90,10 @@ body {
 .footer h4 {
   text-transform: uppercase;
   color: #949494;
+}
+
+/* widgets */
+/* line 93, ../sass/style.scss */
+.countdown-inside-widget {
+  padding: 1.5625em 0;
 }

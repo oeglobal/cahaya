@@ -63,7 +63,7 @@ body {
 	}
 }
 
-.content {
+.content_wrapper {
 	background-color: $white;
 	border-bottom: emCalc(14px) solid $blue;
 	margin-bottom: emCalc(20px);
@@ -78,7 +78,7 @@ body {
 	li {
 		list-style-type: none;
 	}
-	a { 
+	a, .textwidget { 
 		color: $grey-text;
 		font-size: emCalc(12px);
 	}
@@ -87,4 +87,20 @@ body {
 		color: $grey-text;
 	}
 }
+
+/* widgets */
+
+.countdown-inside-widget {
+	padding: emCalc(25px) 0;
+}
+
+
+
+
+
+
+
+
+
+
 
