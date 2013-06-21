@@ -1,6 +1,6 @@
 <?php get_header() ?>
-	<div class="row">
-		<div class="small-12 columns content_wrapper">
+	<div class="row white blue-bottom">
+		<div class="small-12 columns">
 			<div class="row post">
 				<div class="small-4 columns inside-left">
 					<?php dynamic_sidebar('left-sidebar'); ?>

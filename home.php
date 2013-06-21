@@ -1,6 +1,6 @@
 <?php get_header() ?>
-	<div class="row collapse">
-		<div class="small-12 columns content_wrapper_slideshow">
+	<div class="row collapse white">
+		<div class="small-12 columns ">
 			<div class="row collapse post">
 				<div class="small-8 columns">
 				<?php
@@ -30,9 +30,14 @@
 				</div>
 			</div>
 		</div>
-		<div class="small-12 columns content_wrapper">
-				<?php get_template_part('logos'); ?>
-			
+	</div>
+	<div class="row collapse white">
+		<div class="small-12 small-centered columns">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/bg-ribbon-home.gif" />
 		</div>
 	</div>
+	<div class="row blue-bottom">
+	<?php get_template_part('logos'); ?>
+	</div>
+	
 <?php get_footer() ?>

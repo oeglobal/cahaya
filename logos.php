@@ -1,4 +1,4 @@
-<div class="row logos">
+<div class="row collapse logos white">
 	<div class="small-11 small-centered columns">
 		<ul class="small-block-grid-6">
 			<?php $dir = get_stylesheet_directory_uri().'/images'; ?>
@@ -11,10 +11,3 @@
 		</ul>
 	</div>
 </div>
-
-
-
-
-
-
-

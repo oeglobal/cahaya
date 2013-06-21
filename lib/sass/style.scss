@@ -63,12 +63,11 @@ body {
 	}
 }
 
-.content_wrapper_slideshow {
+.white {
 	background-color: $white;
 }
 
-.content_wrapper {
-	background-color: $white;
+.blue-bottom {
 	border-bottom: emCalc(14px) solid $blue;
 	margin-bottom: emCalc(20px);
 }

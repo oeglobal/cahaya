@@ -65,40 +65,39 @@ body {
 }
 
 /* line 66, ../sass/style.scss */
-.content_wrapper_slideshow {
+.white {
   background-color: white;
 }
 
 /* line 70, ../sass/style.scss */
-.content_wrapper {
-  background-color: white;
+.blue-bottom {
   border-bottom: 0.875em solid #177fa9;
   margin-bottom: 1.25em;
 }
 
-/* line 76, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .inside-left {
   background: url("../../images/background-inside.jpg") no-repeat top center;
   min-height: 31.25em;
 }
 
-/* line 82, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .footer li {
   list-style-type: none;
 }
-/* line 85, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 .footer a, .footer .textwidget {
   color: #949494;
   font-size: 0.75em;
 }
-/* line 89, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .footer h4 {
   text-transform: uppercase;
   color: #949494;
 }
 
 /* widgets */
-/* line 97, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .countdown-inside-widget {
   padding: 1.5625em 0;
 }
