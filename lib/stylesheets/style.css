@@ -95,6 +95,10 @@ body {
   padding: 0 0.75em;
 }
 
+/* line 93, ../sass/style.scss */
+.slideshow .slide {
+  margin-bottom: 1.5625em;
+}
 /* line 94, ../sass/style.scss */
 .slideshow .slide .overlay {
   width: 100%;
@@ -111,7 +115,7 @@ body {
   height: 25.75em;
 }
 
-/* line 103, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 .rslides {
   position: relative;
   list-style: none;
@@ -121,7 +125,7 @@ body {
   margin: 0;
 }
 
-/* line 104, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -131,14 +135,14 @@ body {
   top: 0;
 }
 
-/* line 105, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-/* line 106, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .rslides img {
   display: block;
   height: auto;
@@ -147,30 +151,35 @@ body {
   border: 0;
 }
 
+/* line 109, ../sass/style.scss */
+.home-social {
+  padding-bottom: 1.25em;
+}
+
 /* inside pages */
-/* line 110, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 .inside-left {
   background: url("../../images/background-inside.jpg") no-repeat top center;
   min-height: 31.25em;
 }
 
-/* line 116, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .footer li {
   list-style-type: none;
 }
-/* line 119, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 .footer a, .footer .textwidget {
   color: #949494;
   font-size: 0.75em;
 }
-/* line 123, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .footer h4 {
   text-transform: uppercase;
   color: #949494;
 }
 
 /* widgets */
-/* line 131, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .countdown-inside-widget {
   padding: 1.5625em 0;
 }
