@@ -1,55 +1,55 @@
 /* utils */
 /* colors */
-/* line 19, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 body {
   background: url("../../images/background.jpg") no-repeat top center #e0e0e0;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 .top_login {
   background-color: #54a1c5;
   height: 1em;
   margin-bottom: 2.8125em;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 .header {
   color: #177fa9;
   margin-bottom: 3.125em;
 }
-/* line 33, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .header .logo {
   font-size: 2.625em;
 }
-/* line 34, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .header .sublogo1 {
   font-size: 1.5em;
   text-transform: uppercase;
 }
-/* line 38, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .header .sublogo2 {
   font-size: 1.375em;
 }
-/* line 39, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .header .tagline {
   font-size: 1.375em;
   text-align: right;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .topnav {
   background-color: #177fa9;
 }
-/* line 48, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .topnav ul {
   list-style-type: none;
   margin-bottom: 0;
 }
-/* line 50, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .topnav li {
   display: inline-block;
 }
-/* line 51, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .topnav a {
   color: white;
   font-size: 1.0625em;
@@ -58,46 +58,119 @@ body {
   padding: 0 0.625em;
   border-right: 0.0625em solid #4391b2;
 }
-/* line 60, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .topnav li:last-child a {
   border-right: none;
   padding: none;
 }
 
-/* line 66, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .white {
   background-color: white;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .blue-bottom {
   border-bottom: 0.875em solid #177fa9;
   margin-bottom: 1.25em;
 }
 
-/* line 75, ../sass/style.scss */
+/* home page */
+/* line 76, ../sass/style.scss */
+.slideshow .news {
+  background-color: #39515b;
+  color: white;
+  height: 25.75em;
+}
+/* line 81, ../sass/style.scss */
+.slideshow .news h4 {
+  color: white;
+  font-size: 1em;
+  line-height: 1.2em;
+  padding: 0 0.75em;
+}
+/* line 87, ../sass/style.scss */
+.slideshow .news p {
+  font-size: 0.875em;
+  padding: 0 0.75em;
+}
+
+/* line 94, ../sass/style.scss */
+.slideshow .slide .overlay {
+  width: 100%;
+  height: 25.75em;
+  position: relative;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(30%, rgba(57, 81, 91, 0.2)), color-stop(100%, #39515b));
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(57, 81, 91, 0.2) 30%, #39515b 100%);
+  background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(57, 81, 91, 0.2) 30%, #39515b 100%);
+  background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(57, 81, 91, 0.2) 30%, #39515b 100%);
+  background-image: linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(57, 81, 91, 0.2) 30%, #39515b 100%);
+}
+/* line 100, ../sass/style.scss */
+.slideshow .slide img {
+  height: 25.75em;
+}
+
+/* line 103, ../sass/style.scss */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 104, ../sass/style.scss */
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* line 105, ../sass/style.scss */
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+/* line 106, ../sass/style.scss */
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
+/* inside pages */
+/* line 110, ../sass/style.scss */
 .inside-left {
   background: url("../../images/background-inside.jpg") no-repeat top center;
   min-height: 31.25em;
 }
 
-/* line 81, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 .footer li {
   list-style-type: none;
 }
-/* line 84, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .footer a, .footer .textwidget {
   color: #949494;
   font-size: 0.75em;
 }
-/* line 88, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .footer h4 {
   text-transform: uppercase;
   color: #949494;
 }
 
 /* widgets */
-/* line 96, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .countdown-inside-widget {
   padding: 1.5625em 0;
 }
