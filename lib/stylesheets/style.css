@@ -1,55 +1,55 @@
 /* utils */
 /* colors */
-/* line 20, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 body {
   background: url("../../images/background.jpg") no-repeat top center #e0e0e0;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 .top_login {
   background-color: #54a1c5;
   height: 1em;
   margin-bottom: 2.8125em;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .header {
   color: #177fa9;
   margin-bottom: 3.125em;
 }
-/* line 34, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .header .logo {
   font-size: 2.625em;
 }
-/* line 35, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .header .sublogo1 {
   font-size: 1.5em;
   text-transform: uppercase;
 }
-/* line 39, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .header .sublogo2 {
   font-size: 1.375em;
 }
-/* line 40, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 .header .tagline {
   font-size: 1.375em;
   text-align: right;
 }
 
-/* line 46, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .topnav {
   background-color: #177fa9;
 }
-/* line 49, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .topnav ul {
   list-style-type: none;
   margin-bottom: 0;
 }
-/* line 51, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .topnav li {
   display: inline-block;
 }
-/* line 52, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .topnav a {
   color: white;
   font-size: 1.0625em;
@@ -58,48 +58,48 @@ body {
   padding: 0 0.625em;
   border-right: 0.0625em solid #4391b2;
 }
-/* line 61, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .topnav li:last-child a {
   border-right: none;
   padding: none;
 }
 
-/* line 67, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .white {
   background-color: white;
 }
 
-/* line 68, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 .blue-bottom {
   border-bottom: 0.875em solid #177fa9;
   margin-bottom: 1.25em;
 }
 
 /* home page */
-/* line 76, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .slideshow .news {
   background-color: #39515b;
   color: white;
   height: 25.75em;
 }
-/* line 81, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 .slideshow .news h4 {
   color: white;
   font-size: 1em;
   line-height: 1.2em;
   padding: 0 0.75em;
 }
-/* line 87, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .slideshow .news p {
   font-size: 0.875em;
   padding: 0 0.75em;
 }
 
-/* line 93, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .slideshow .slide {
   margin-bottom: 1.5625em;
 }
-/* line 94, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .slideshow .slide .overlay {
   width: 100%;
   height: 25.75em;
@@ -110,12 +110,12 @@ body {
   background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(57, 81, 91, 0.2) 30%, #39515b 100%);
   background-image: linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(57, 81, 91, 0.2) 30%, #39515b 100%);
 }
-/* line 100, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .slideshow .slide img {
   height: 25.75em;
 }
 
-/* line 104, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .rslides {
   position: relative;
   list-style: none;
@@ -125,7 +125,7 @@ body {
   margin: 0;
 }
 
-/* line 105, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -135,14 +135,14 @@ body {
   top: 0;
 }
 
-/* line 106, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-/* line 107, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 .rslides img {
   display: block;
   height: auto;
@@ -151,35 +151,78 @@ body {
   border: 0;
 }
 
-/* line 109, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 .home-social {
   padding-bottom: 1.25em;
 }
+/* line 113, ../sass/style.scss */
+.home-social .image-border img {
+  border: 0.25em solid #d4d4d4;
+}
+
+/* line 118, ../sass/style.scss */
+.insights {
+  text-transform: uppercase;
+  text-align: center;
+  color: #666666;
+  padding: 1.25em;
+}
+/* line 122, ../sass/style.scss */
+.insights hr {
+  margin: 0.3125em;
+}
+
+/* line 129, ../sass/style.scss */
+.home-pages-featured {
+  padding-bottom: 1.25em;
+}
+/* line 132, ../sass/style.scss */
+.home-pages-featured h4 {
+  font-size: 1.4375em;
+  text-transform: uppercase;
+}
+/* line 137, ../sass/style.scss */
+.home-pages-featured p {
+  font-size: 0.875em;
+  line-height: 1.25em;
+}
+/* line 142, ../sass/style.scss */
+.home-pages-featured a {
+  color: #666666;
+}
+/* line 152, ../sass/style.scss */
+.home-pages-featured .ico-blue-ribbon {
+  margin-bottom: 0.3125em;
+  background-color: #54a1c5;
+  color: white;
+  font-size: 1.375em;
+  line-height: 1.5em;
+}
 
 /* inside pages */
-/* line 115, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .inside-left {
   background: url("../../images/background-inside.jpg") no-repeat top center;
   min-height: 31.25em;
 }
 
-/* line 121, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .footer li {
   list-style-type: none;
 }
-/* line 124, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .footer a, .footer .textwidget {
   color: #949494;
   font-size: 0.75em;
 }
-/* line 128, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .footer h4 {
   text-transform: uppercase;
   color: #949494;
 }
 
 /* widgets */
-/* line 136, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .countdown-inside-widget {
   padding: 1.5625em 0;
 }

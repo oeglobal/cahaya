@@ -16,6 +16,7 @@ $blue-delimeter: #4391B2;
 $white: #FFFFFF;
 $grey-background: #E0E0E0;
 $grey-text: #949494;
+$grey-border: #D4D4D4;
 
 body {
 	background: url('../../images/background.jpg') no-repeat top center $grey-background;
@@ -108,6 +109,55 @@ $slideshow-height: emCalc(412px);
 
 .home-social {
 	padding-bottom: emCalc(20px);
+
+	.image-border img {
+		border: emCalc(4px) solid $grey-border;
+	}
+}
+
+.insights {
+	text-transform: uppercase;
+	text-align: center;
+	color: $text;
+	hr {
+		margin: emCalc(5px);
+	}
+	padding: emCalc(20px);
+	
+}
+
+.home-pages-featured {
+	padding-bottom: emCalc(20px);
+
+	h4 {
+		font-size: emCalc(23px);
+		text-transform: uppercase;
+	}
+
+	p {
+		font-size: emCalc(14px);
+		line-height: emCalc(20px);
+	}
+
+	a {
+		color: $text;
+	}
+
+	.ico-thumbnail {
+		// position: absolute;
+		// top: 10px;
+		// left: 10px;
+	}
+
+	.ico-blue-ribbon {
+		margin-bottom: emCalc(5px);
+
+		background-color: $blue-topnav;
+		color: $white;
+		font-size: emCalc(22px);
+		line-height: emCalc(24px);
+
+	}
 }
 
 /* inside pages */

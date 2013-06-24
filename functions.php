@@ -10,6 +10,9 @@ function cahaya_init() {
 	register_cahaya_slideshow();
 
 	add_image_size( 'slideshow-image', 770, 412, true);
+	add_image_size( 'home-small', 245, 154, true);
+	add_image_size( 'home-featured', 179, 103, true);
+
 }
 add_action( 'init', 'cahaya_init' );
 
@@ -40,6 +43,26 @@ function register_cahaya_sidebars() {
 	   'before_title' => '<h3 class="footer-title">',
 	   'after_title' => '</h3>',
 	) );
+
+	register_sidebar( array(
+	   'name' => __( 'Featured Home Pages with Thumbnails'),
+	   'id' => 'home-pages-thumbnails',
+	   'description' => __( 'Featured pages on home, use with Featured Page Widget', 'cahaya' ),
+	   'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+	   'after_widget' => "</aside>",
+	   'before_title' => '<h3 class="widget-title">',
+	   'after_title' => '</h3>',
+	) );	
+
+	register_sidebar( array(
+	   'name' => __( 'Featured Home Pages'),
+	   'id' => 'home-pages',
+	   'description' => __( 'Featured pages on home, use with Featured Page Widget', 'cahaya' ),
+	   'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+	   'after_widget' => "</aside>",
+	   'before_title' => '<h3 class="widget-title">',
+	   'after_title' => '</h3>',
+	) );	
 }
 
 /* menus */
