@@ -32,6 +32,11 @@ body {
 	color: $blue;
 	margin-bottom: emCalc(50px);
 
+	a { color: $blue; }
+	span {
+		display: block;
+		clear: left;
+	}
 	.logo 	  { font-size: emCalc(42px); }
 	.sublogo1 {	
 				font-size: emCalc(24px); 
@@ -40,6 +45,7 @@ body {
 	.sublogo2 {	font-size: emCalc(22px); }
 	.tagline {
 		font-size: emCalc(22px);
+		padding-top: emCalc(47px);
 		text-align: right;
 	}
 }
