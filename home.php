@@ -13,7 +13,7 @@
 						$query->the_post();
 						$image_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slideshow-image' )[0];
 
-						echo '<li class="slide"><img src="'.$image_src.'" /><div class="overlay"></div></li>';
+						echo '<li class="slide"><img src="'.$image_src.'" /><!-- <div class="overlay"></div> --></li>';
 					}
 					echo '</ul>';
 				}

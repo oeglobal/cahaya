@@ -10,6 +10,7 @@ function cahaya_init() {
 	register_cahaya_slideshow();
 
 	add_image_size( 'slideshow-image', 770, 412, true);
+	add_image_size( 'slideshow-image-large', 1100, 412, true);
 	add_image_size( 'home-small', 245, 154, true);
 	add_image_size( 'home-featured', 179, 103, true);
 
