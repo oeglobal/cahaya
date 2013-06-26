@@ -21,7 +21,7 @@
 	<div class="row header">
 		<div class="small-5 columns">
 			<a href="<?php echo get_site_url(); ?>">
-				<span class="logo">OCWC Global 2013</span>
+				<span class="logo">OCWC Global 2014</span>
 				<span class="sublogo1">Ljubljana, Slovenia</span>
 				<span class="sublogo2">23 - 25 April 2014</span>
 			</a>
