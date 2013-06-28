@@ -6,7 +6,7 @@
 
   	<link href="<?php echo get_stylesheet_directory_uri(); ?>/lib/stylesheets/app.css" media="screen, projector, print" rel="stylesheet" type="text/css" />
   	<link href="<?php echo get_stylesheet_directory_uri(); ?>/lib/stylesheets/style.css" media="screen, projector, print" rel="stylesheet" type="text/css" />
- 	<link href='http://fonts.googleapis.com/css?family=Metrophobic|Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+
   	<?php wp_head(); ?>
 </head>
 
@@ -17,7 +17,7 @@
 
 	<div class="row header">
 		<div class="small-6 columns">
-			<div class="logo">OCWC Global <span class="logoyear">2013</span></div>
+			<div class="logo">OCWC Global 2013</div>
 			<div class="sublogo1">Ljubljana, Slovenia</div>
 			<div class="sublogo2">23 - 25 April 2014</div>
 		</div>
