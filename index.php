@@ -1,5 +1,5 @@
 <?php get_header() ?>
-	<div class="row">
+	<div class="row bshadow">
 		<div class="small-12 columns content_wrapper">
 			<div class="row post">
 				<div class="small-4 columns inside-left">
