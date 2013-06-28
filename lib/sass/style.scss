@@ -1,4 +1,6 @@
 /* utils */
+@import "compass";
+
 $em-base: 16px !default;
 
 // Working in ems is annoying. Think in pixels by using this handy function, emCalc(#px)
@@ -7,7 +9,6 @@ $em-base: 16px !default;
 }
 
 /* colors */
-// $blue: #4192B7;
 $text: #666;
 $blue: #177FA9;
 $blue-topnav: #54A1C5;
@@ -15,6 +16,7 @@ $blue-delimeter: #4391B2;
 $white: #FFFFFF;
 $grey-background: #E0E0E0;
 $grey-text: #949494;
+$grey-border: #D4D4D4;
 
 body {
 	background: url('../../images/background.jpg') no-repeat top center $grey-background;
@@ -30,6 +32,11 @@ body {
 	color: $blue;
 	margin-bottom: emCalc(50px);
 
+	a { color: $blue; }
+	span {
+		display: block;
+		clear: left;
+	}
 	.logo 	  { font-size: emCalc(42px); }
 	.sublogo1 {	
 				font-size: emCalc(24px); 
@@ -38,6 +45,7 @@ body {
 	.sublogo2 {	font-size: emCalc(22px); }
 	.tagline {
 		font-size: emCalc(22px);
+		padding-top: emCalc(47px);
 		text-align: right;
 	}
 }
@@ -63,11 +71,102 @@ body {
 	}
 }
 
-.content_wrapper {
-	background-color: $white;
+.white { background-color: $white; }
+.blue-bottom {
 	border-bottom: emCalc(14px) solid $blue;
 	margin-bottom: emCalc(20px);
 }
+
+/* home page */
+$slideshow-height: emCalc(412px);
+
+.slideshow .news {
+	background-color: rgb(57,81,91);
+	color: $white;
+	height: $slideshow-height;
+
+	h4 {
+		color: $white;
+		font-size: emCalc(16px);
+		line-height: 1.2em;
+		padding: 0 emCalc(12px);
+	}
+	p {
+		font-size: emCalc(14px);
+		padding: 0 emCalc(12px);
+	}
+}
+
+.slideshow .slide {
+	.overlay {
+		width: 100%;
+	    height: $slideshow-height;
+	    position: relative;
+	    @include background-image(linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(57,81,91,0.2) 30%, rgba(57,81,91,1) 100%));
+	}
+	img { height: $slideshow-height;}
+	margin-bottom: emCalc(25px);
+}
+
+.rslides { position: relative; list-style: none; overflow: hidden; width: 100%; padding: 0; margin: 0;}
+.rslides li { -webkit-backface-visibility: hidden; position: absolute; display: none; width: 100%; left: 0; top: 0; }
+.rslides li:first-child { position: relative; display: block; float: left; }
+.rslides img { display: block; height: auto; float: left; width: 100%; border: 0; }
+
+.home-social {
+	padding-bottom: emCalc(20px);
+
+	.image-border img {
+		border: emCalc(4px) solid $grey-border;
+	}
+}
+
+.insights {
+	text-transform: uppercase;
+	text-align: center;
+	color: $text;
+	hr {
+		margin: emCalc(5px);
+	}
+	padding: emCalc(20px);
+	
+}
+
+.home-pages-featured {
+	padding-bottom: emCalc(20px);
+
+	h4 {
+		font-size: emCalc(23px);
+		text-transform: uppercase;
+	}
+
+	p {
+		font-size: emCalc(14px);
+		line-height: emCalc(20px);
+	}
+
+	a {
+		color: $text;
+	}
+
+	.ico-thumbnail {
+		// position: absolute;
+		// top: 10px;
+		// left: 10px;
+	}
+
+	.ico-blue-ribbon {
+		margin-bottom: emCalc(5px);
+
+		background-color: $blue-topnav;
+		color: $white;
+		font-size: emCalc(22px);
+		line-height: emCalc(24px);
+
+	}
+}
+
+/* inside pages */
 
 .inside-left {
 	background: url('../../images/background-inside.jpg') no-repeat top center;
