@@ -11,9 +11,9 @@
 					echo '<ul class="rslides">';
 					while ( $query->have_posts() ) {
 						$query->the_post();
-						$image_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slideshow-image-large' )[0];
+						//$image_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slideshow-image-large' )[0];
 
-						echo '<li class="slide"><img src="'.$image_src.'" /></li>';
+						//echo '<li class="slide"><img src="'.$image_src.'" /></li>';
 					}
 					echo '</ul>';
 				}
@@ -100,7 +100,7 @@
 	<div class="row white home-pages-featured">
 		<?php dynamic_sidebar('home-pages-thumbnails'); ?>
 	</div>
-	<div class="row white home-pages-featured thumbnails blue-bottom">
+	<div class="row white home-pages-featured thumbnails blue-bottom"></div>
 		<?php dynamic_sidebar('home-pages'); ?>
 	</div>
 	
