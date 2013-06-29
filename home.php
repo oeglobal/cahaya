@@ -11,9 +11,13 @@
 					echo '<ul class="rslides">';
 					while ( $query->have_posts() ) {
 						$query->the_post();
-						//$image_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slideshow-image-large' )[0];
+						$image_list = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slideshow-image-large' );
 
-						//echo '<li class="slide"><img src="'.$image_src.'" /></li>';
+						if (count($image_list) > 0) {
+							$image_src = $image_list[0];
+						}
+
+						echo '<li class="slide"><img src="'.$image_src.'" /></li>';
 					}
 					echo '</ul>';
 				}
