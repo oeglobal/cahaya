@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-
+  	<link href='http://fonts.googleapis.com/css?family=Metrophobic|Pathway+Gothic+One' rel='stylesheet' type='text/css'>
   	<link href="<?php echo get_stylesheet_directory_uri(); ?>/lib/stylesheets/app.css" media="screen, projector, print" rel="stylesheet" type="text/css" />
   	<link href="<?php echo get_stylesheet_directory_uri(); ?>/lib/stylesheets/style.css" media="screen, projector, print" rel="stylesheet" type="text/css" />
   	<script src="<?php echo get_stylesheet_directory_uri(); ?>/lib/javascripts/plugins/respond.min.js"></script>
@@ -21,7 +21,7 @@
 	<div class="row header">
 		<div class="small-5 columns">
 			<a href="<?php echo get_site_url(); ?>">
-				<span class="logo">OCWC Global 2014</span>
+				<span class="logo">OCWC Global 2014</span> 
 				<span class="sublogo1">Ljubljana, Slovenia</span>
 				<span class="sublogo2">23 - 25 April 2014</span>
 			</a>
@@ -30,7 +30,7 @@
 			<div class="tagline">Open Education for a Multicultural World</div>
 		</div>
 	</div>
-
+	<div class="row bshadow">
 	<div class="row">
 		<div class="small-12 columns topnav">
 			<ul>
