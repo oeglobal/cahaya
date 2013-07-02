@@ -568,8 +568,6 @@ select {
 /* line 124, ../../../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.2.2/scss/foundation/components/_grid.scss */
 .row .row {
   width: auto;
-  margin-left: -0.9375em;
-  margin-right: -0.9375em;
   margin-top: 0;
   margin-bottom: 0;
   max-width: none;
