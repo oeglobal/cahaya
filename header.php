@@ -30,7 +30,7 @@
 			<div class="tagline">Open Education for a Multicultural World</div>
 		</div>
 	</div>
-	<div class="row bshadow">
+	<div class="bshadow">
 	<div class="row">
 		<div class="small-12 columns topnav">
 			<ul>

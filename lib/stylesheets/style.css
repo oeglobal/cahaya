@@ -258,7 +258,10 @@ body {
   font-size: 1.2em;}
 
 .bshadow {
-  box-shadow: 2px 7px 30px rgba(50, 50, 50, 1);
+  box-shadow: 2px 1px 10px rgba(50, 50, 50, 1);
+  margin:0 auto;
+  max-width:68.75em;
+  width:auto;
 }
 
 /* paragraph */

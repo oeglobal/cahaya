@@ -1,7 +1,7 @@
 <?php get_header() ?>
 <?php $sticky = get_option( 'sticky_posts' ); ?>
 	<div class="row collapse white">
-		<div class="small-12 columns ">
+		<div class="small-12 columns">
 			<div class="row collapse slideshow">
 				<div class="small-12 columns">
 				<?php
@@ -11,9 +11,9 @@
 					echo '<ul class="rslides">';
 					while ( $query->have_posts() ) {
 						$query->the_post();
-						//$image_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slideshow-image-large' )[0];
+						$image_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slideshow-image-large' )[0];
 
-						//echo '<li class="slide"><img src="'.$image_src.'" /></li>';
+						echo '<li class="slide"><img src="'.$image_src.'" /></li>';
 					}
 					echo '</ul>';
 				}
