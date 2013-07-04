@@ -28,7 +28,7 @@ body {
 }
 /* line 40, ../sass/style.scss */
 .header .logo {
-  font-size: 2.925em;
+  font-size: 2.625em;
 }
 /* line 41, ../sass/style.scss */
 .header .sublogo1 {
@@ -37,12 +37,13 @@ body {
 }
 /* line 45, ../sass/style.scss */
 .header .sublogo2 {
-  font-size: 1.875em;
+  font-size: 1.375em;
 }
 /* line 46, ../sass/style.scss */
 .header .tagline {
-  font-size: 1.875em;
-  padding-top: .9375em;
+  font-size: 1.375em;
+  padding-top: 2.9375em;
+  text-align: right;
 }
 
 /* line 53, ../sass/style.scss */
@@ -81,6 +82,7 @@ body {
 /* line 75, ../sass/style.scss */
 .blue-bottom {
   border-bottom: 0.875em solid #177fa9;
+  margin-bottom: 1.25em;
 }
 
 /* home page */
@@ -221,12 +223,12 @@ body {
 /* line 180, ../sass/style.scss */
 .footer a, .footer .textwidget {
   color: #949494;
-  font-size: 0.95em;
+  font-size: 0.75em;
 }
 /* line 184, ../sass/style.scss */
 .footer h4 {
   text-transform: uppercase;
-  color: #868484;
+  color: #949494;
 }
 
 /* widgets */
@@ -236,73 +238,96 @@ body {
 }
 
 /* dev2 custom */
-.logo ,.sublogo2 ,.sublogo1 ,.tagline {
-  font-family: 'Metrophobic', 
-  sans-serif;
-  font-weight: 31.250em
+/* line 197, ../sass/style.scss */
+.logo, .sublogo2, .sublogo1 {
+  font-family: "Metrophobic", sans-serif;
+  font-weight: 31.25em;
 }
 
+/* line 202, ../sass/style.scss */
 .tagline {
+  font-family: "Metrophobic", sans-serif;
+  font-weight: 31.25em;
   text-align: center;
-  padding-left: 0.625em; 
-  letter-spacing:-2pt
+  padding-left: 0.625em;
+  letter-spacing: -2pt;
 }
 
+/* line 210, ../sass/style.scss */
 .logo {
-  letter-spacing:-3pt;
+  letter-spacing: -3pt;
 }
+
+/* line 214, ../sass/style.scss */
 .sublogo2 {
-  letter-spacing:-1pt;}
+  letter-spacing: -1pt;
+}
 
+/* line 218, ../sass/style.scss */
 .logoyear {
-  font-size: 1.2em;}
+  font-size: 1.2em;
+}
 
+/* line 222, ../sass/style.scss */
 .bshadow {
-  box-shadow: 2px 7px 30px rgba(50, 50, 50, 1);
+  box-shadow: 2px 1px 10px #323232;
+  margin: 0 auto;
+  max-width: 68.75em;
+  width: auto;
 }
 
 /* paragraph */
+/* line 231, ../sass/style.scss */
 h1 {
-  font-size: 1.938em; 
+  font-size: 1.938em;
 }
 
+/* line 235, ../sass/style.scss */
 h2 {
-  font-size: 1.638em
+  font-size: 1.638em;
 }
 
+/* line 239, ../sass/style.scss */
 h3 {
-  font-size: 1.438em
+  font-size: 1.438em;
 }
 
+/* line 243, ../sass/style.scss */
 h4 {
-  font-size: .938em
+  font-size: 0.938em;
 }
 
-h1 ,h2 ,h3 ,h4 {
+/* line 247, ../sass/style.scss */
+h1, h2, h3, h4 {
   color: #868484;
-  font-family: 'Metrophobic', 
-  sans-serif;
+  font-family: "Metrophobic", sans-serif;
 }
 
-p {font-size: 0.938em; 
-  line-height: 1.425em
+/* line 252, ../sass/style.scss */
+p {
+  font-size: 0.938em;
+  line-height: 1.125em;
 }
 
 /* menu-hover */
+/* line 259, ../sass/style.scss */
 .topnav a:hover {
   background-color: #1d739a;
 }
 
+/* line 263, ../sass/style.scss */
+.footer {
+  padding-bottom: 2.8125em;
+  padding-top: 1.1125em;
+}
+/* line 264, ../sass/style.scss */
 .footer a:hover {
   background-color: #949494;
   color: #FFFFFF;
 }
 
 /* adjustments */
-.footer {
-  padding-bottom: 2.8125em; 
-  padding-top: 1.1125em;}
-
+/* line 274, ../sass/style.scss */
 .bottomlogo {
-  margin-bottom: 1.563em}
-
+  margin-bottom: 1.563em;
+}

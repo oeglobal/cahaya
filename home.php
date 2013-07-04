@@ -1,7 +1,7 @@
 <?php get_header() ?>
 <?php $sticky = get_option( 'sticky_posts' ); ?>
 	<div class="row collapse white">
-		<div class="small-12 columns ">
+		<div class="small-12 columns">
 			<div class="row collapse slideshow">
 				<div class="small-12 columns">
 				<?php
@@ -16,7 +16,6 @@
 						if (count($image_list) > 0) {
 							$image_src = $image_list[0];
 						}
-
 						echo '<li class="slide"><img src="'.$image_src.'" /></li>';
 					}
 					echo '</ul>';
