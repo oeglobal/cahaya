@@ -275,7 +275,11 @@ body {
   max-width: 68.75em;
   width: auto;
 }
-
+/* site nav */
+ul.menu {
+  list-style-type: none; 
+  margin-left: 1em; 
+}
 /* paragraph */
 /* line 231, ../sass/style.scss */
 h1 {
@@ -313,6 +317,7 @@ p {
 /* line 259, ../sass/style.scss */
 .topnav a:hover {
   background-color: #1d739a;
+  height: 5em;
 }
 
 /* line 263, ../sass/style.scss */
@@ -329,5 +334,6 @@ p {
 /* adjustments */
 /* line 274, ../sass/style.scss */
 .bottomlogo {
-  margin-bottom: 1.563em;
+  margin: 0em;
 }
+
