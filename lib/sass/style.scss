@@ -179,7 +179,7 @@ $slideshow-height: emCalc(412px);
 	}
 	a, .textwidget { 
 		color: $grey-text;
-		font-size: emCalc(12px);
+		font-size: emCalc(16px);
 	}
 	h4 {
 		text-transform: uppercase;
@@ -272,5 +272,5 @@ p {
 /* adjustments */
 
 .bottomlogo {
-  margin-bottom: 1.563em;
+  margin-bottom: 0em;
 }

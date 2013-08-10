@@ -223,7 +223,7 @@ body {
 /* line 180, ../sass/style.scss */
 .footer a, .footer .textwidget {
   color: #949494;
-  font-size: 0.75em;
+  font-size: 0.95em;
 }
 /* line 184, ../sass/style.scss */
 .footer h4 {
@@ -250,7 +250,7 @@ body {
   font-weight: 31.25em;
   text-align: center;
   padding-left: 0.625em;
-  letter-spacing: -2pt;
+  letter-spacing: -1.2pt;
 }
 
 /* line 210, ../sass/style.scss */
@@ -275,7 +275,11 @@ body {
   max-width: 68.75em;
   width: auto;
 }
-
+/* site nav */
+ul.menu {
+  list-style-type: none; 
+  margin-left: 1em; 
+}
 /* paragraph */
 /* line 231, ../sass/style.scss */
 h1 {
@@ -313,6 +317,7 @@ p {
 /* line 259, ../sass/style.scss */
 .topnav a:hover {
   background-color: #1d739a;
+  height: 5em;
 }
 
 /* line 263, ../sass/style.scss */
@@ -329,5 +334,6 @@ p {
 /* adjustments */
 /* line 274, ../sass/style.scss */
 .bottomlogo {
-  margin-bottom: 1.563em;
+  margin: 0em;
 }
+
