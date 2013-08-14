@@ -57,7 +57,43 @@
 			</div>
 		</div>
 	</div>
-	<div class="row home-social white">
+	<div class="row home-social white">		
+		<div class="row links">
+			<div class="small-5 columns signup">
+				<div class="row">
+					<div class="small-5 columns heads">
+						<h4>SIGN-UP TO OUR</h4>
+						<h3>NEWSLETTER</h3>
+					</div>
+					<div class="small-2 columns env">
+						<a href=""><i class="icon-envelope icon-2x"></i></a>
+					</div>
+					<div class="small-5 columns child-links">
+						<a href="http://eepurl.com/FFXL"><i class="icon-chevron-right"></i> <span>SIGN-UP</span></a>
+						<a href="http://www.ocwconsortium.org/en/aboutus/pressroom/newsletterarchive"><i class="icon-chevron-right"></i> <span>ARCHIVES</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="small-7 columns socials">
+				<div class="row">
+					<div class="small-4 columns heads">
+						<h4>STAY UPDATED</h4>
+						<h3>FOLLOW US</h3>
+					</div>
+					<div class="child-socials">
+					<div class="small-3 columns">
+						<a href="https://www.facebook.com/OCWConsortium"><i class="icon-facebook-sign icon-2x"></i> <h4>FACEBOOK</h4></a>
+					</div>
+					<div class="small-3 columns">
+						<a href="https://twitter.com/ocwnews"><i class="icon-twitter-sign icon-2x"></i> <h4>TWITTER</h4></a>
+					</div>
+					<div class="small-3 columns">
+						<a href="http://www.youtube.com/user/OCWConsortium"><i class="icon-youtube-sign icon-2x"></i> <h4>YOUTUBE</h4></a>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="small-6 columns">
 			<?php
 				$args = array(
