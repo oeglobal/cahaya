@@ -337,3 +337,56 @@ p {
   margin: 0em;
 }
 
+
+/* NewsLetter & Follow Us */
+
+.links .heads h3 {
+  line-height: 0em;
+}
+
+.links .child-links a {
+  line-height: 0em;
+  display: block;
+  padding-top: 5px;
+}
+
+.links .env i {
+  font-size: 3em;
+}
+
+.links .child-links a span {
+  color: #868584;
+  font-weight: 700;
+}
+
+.links .socials, .links .signup {
+  border-left: 5px #2ba6cb solid;
+}
+
+.socials a {
+  font-size: 1em;
+}
+
+.socials a h4 {
+  font-size: 0.8em;
+  display: inline;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  vertical-align: middle !important;
+}
+
+.child-socials {
+  padding-top: 5px;
+}
+
+.child-socials .small-3 {
+  padding-left: 0;
+  padding-right: 0;
+  float: left !important;
+  width: 20%;
+}
+
+.child-socials .small-3:nth-child(2) {
+  width: 17%;
+}
