@@ -305,7 +305,7 @@ h1, h2, h3, h4 {
 /* line 252, ../sass/style.scss */
 p {
   font-size: 0.938em;
-  line-height: 1.125em;
+  line-height: 1.425em;
 }
 
 /* menu-hover */
@@ -330,7 +330,7 @@ p {
 /* line 274, ../sass/style.scss */
 .bottomlogo li {
   margin: 0em;
-  padding: 0.45em;
+  padding: 1em 0.45em;
   width: auto;
 }
 
