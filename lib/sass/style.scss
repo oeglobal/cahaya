@@ -251,7 +251,7 @@ h1, h2, h3, h4 {
 
 p {
   font-size: 0.938em;
-  line-height: 1.125em;
+  line-height: 1.425em;
 }
 
 /* menu-hover */
@@ -273,6 +273,8 @@ p {
 
 .bottomlogo {
   margin-bottom: 0em;
+  padding: 0.45em;
+  width: auto;
 }
 
 /* NewsLetter & Follow Us */
@@ -321,4 +323,9 @@ p {
       width: 17%;
     }
   }
+}
+
+ul.menu {
+  list-style-type: none;
+  margin-left: 0em;
 }

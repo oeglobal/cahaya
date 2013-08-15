@@ -275,11 +275,6 @@ body {
   max-width: 68.75em;
   width: auto;
 }
-/* site nav */
-ul.menu {
-  list-style-type: none; 
-  margin-left: 1em; 
-}
 /* paragraph */
 /* line 231, ../sass/style.scss */
 h1 {
@@ -310,7 +305,7 @@ h1, h2, h3, h4 {
 /* line 252, ../sass/style.scss */
 p {
   font-size: 0.938em;
-  line-height: 1.125em;
+  line-height: 1.425em;
 }
 
 /* menu-hover */
@@ -333,13 +328,15 @@ p {
 
 /* adjustments */
 /* line 274, ../sass/style.scss */
-.bottomlogo {
+.bottomlogo li {
   margin: 0em;
+  padding: 1em 0.45em;
+  width: auto;
 }
 
 
 /* NewsLetter & Follow Us */
-
+/* line 282, ../sass/style.scss */
 .links .heads h3 {
   line-height: 0em;
 }
@@ -362,7 +359,7 @@ p {
 .links .socials, .links .signup {
   border-left: 5px #2ba6cb solid;
 }
-
+/* line 303, ../sass/style.scss */
 .socials a {
   font-size: 1em;
 }
@@ -377,7 +374,7 @@ p {
 }
 
 .child-socials {
-  padding-top: 5px;
+  padding: 0 1.3em 2em;
 }
 
 .child-socials .small-3 {
@@ -386,7 +383,13 @@ p {
   float: left !important;
   width: 20%;
 }
-
+/* line 315, ../sass/style.scss */
 .child-socials .small-3:nth-child(2) {
   width: 17%;
+}
+/* site nav */
+/* line 331, ../sass/style.scss */
+ul.menu {
+  list-style-type: none; 
+  margin-left: 0em; 
 }
