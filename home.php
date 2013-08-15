@@ -61,7 +61,7 @@
 			<div class="small-5 columns signup">
 				<div class="row">					
 					<div class="small-5 columns heads">
-						<h4>SIGN-UP TO OUR</h4>
+						<h4>SIGN-UP FOR OUR</h4>
 						<h3>NEWSLETTER</h3>
 					</div>
 					<div class="small-2 columns env">
