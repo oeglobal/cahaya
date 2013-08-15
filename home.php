@@ -57,20 +57,19 @@
 			</div>
 		</div>
 	</div>
-	<div class="row home-social white">		
-		<div class="row links">
+	<div class="row links child-socials  white">
 			<div class="small-5 columns signup">
-				<div class="row">
+				<div class="row">					
 					<div class="small-5 columns heads">
-						<h4>SIGN-UP TO OUR</h4>
+						<h4>SIGN-UP FOR OUR</h4>
 						<h3>NEWSLETTER</h3>
 					</div>
 					<div class="small-2 columns env">
 						<a href=""><i class="icon-envelope icon-2x"></i></a>
 					</div>
 					<div class="small-5 columns child-links">
-						<a href="http://eepurl.com/FFXL"><i class="icon-chevron-right"></i> <span>SIGN-UP</span></a>
-						<a href="http://www.ocwconsortium.org/en/aboutus/pressroom/newsletterarchive"><i class="icon-chevron-right"></i> <span>ARCHIVES</span></a>
+						<a href="http://eepurl.com/FFXL" target="_blank"><i class="icon-chevron-right"></i> <span>SIGN-UP</span></a>
+						<a href="http://www.ocwconsortium.org/en/aboutus/pressroom/newsletterarchive" target="_blank"><i class="icon-chevron-right"></i> <span>ARCHIVES</span></a>
 					</div>
 				</div>
 			</div>
@@ -82,18 +81,19 @@
 					</div>
 					<div class="child-socials">
 					<div class="small-3 columns">
-						<a href="https://www.facebook.com/OCWConsortium"><i class="icon-facebook-sign icon-2x"></i> <h4>FACEBOOK</h4></a>
+						<a href="https://www.facebook.com/OCWConsortium" target="_blank"><i class="icon-facebook-sign icon-2x"></i> <h4>FACEBOOK</h4></a>
 					</div>
 					<div class="small-3 columns">
-						<a href="https://twitter.com/ocwnews"><i class="icon-twitter-sign icon-2x"></i> <h4>TWITTER</h4></a>
+						<a href="https://twitter.com/ocwnews" target="_blank"><i class="icon-twitter-sign icon-2x"></i> <h4>TWITTER</h4></a>
 					</div>
 					<div class="small-3 columns">
-						<a href="http://www.youtube.com/user/OCWConsortium"><i class="icon-youtube-sign icon-2x"></i> <h4>YOUTUBE</h4></a>
+						<a href="http://www.youtube.com/user/OCWConsortium" target="_blank"><i class="icon-youtube-sign icon-2x"></i> <h4>YOUTUBE</h4></a>
 					</div>
 					</div>
-				</div>
 			</div>
 		</div>
+	</div>
+	<div class="row home-social white">
 		<div class="small-6 columns">
 			<?php
 				$args = array(
@@ -125,7 +125,7 @@
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div>
 	</div>
-	<div class="row white">
+	<div class="row insights white">
 		<?php get_template_part('logos'); ?>
 	</div>	
 	<div class="row white insights">
