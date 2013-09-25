@@ -71,6 +71,41 @@ body {
 	}
 }
 
+#menu-side-navigation {
+	.menu-item {
+		z-index: 1;
+		height: emCalc(46px);
+	}
+	.menu-item:hover .sub-menu {
+		display: block
+	}
+
+	.sub-menu {
+		display: none;
+
+		margin-left: 0;
+		position: absolute;
+		
+		z-index: 10;
+
+		li {
+			display: inline-block;
+			width: 140%;
+			height: emCalc(46px);
+			float: left;
+			clear: both;
+			background-color: $blue;
+		}
+
+		li a {
+			border-right: none;
+			display: inline-block;
+			width: 100%;
+		}
+	}
+
+}
+
 .white { background-color: $white; }
 .blue-bottom {
 	border-bottom: emCalc(14px) solid $blue;
