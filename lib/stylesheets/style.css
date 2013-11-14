@@ -282,17 +282,6 @@ body {
   font-weight: 31.25em;
   text-align: center;
   padding-left: 0.625em;
-  letter-spacing: -2pt;
-}
-
-/* line 245, ../sass/style.scss */
-.logo {
-  letter-spacing: -3pt;
-}
-
-/* line 249, ../sass/style.scss */
-.sublogo2 {
-  letter-spacing: -1pt;
 }
 
 /* line 253, ../sass/style.scss */
