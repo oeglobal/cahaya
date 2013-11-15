@@ -331,34 +331,29 @@ p, li, ul {
 }
 
 /* line 292, ../sass/style.scss */
-li {
-  margin-bottom: 2px;
-}
-
-/* line 296, ../sass/style.scss */
 ul {
   list-style-position: inside;
 }
 
 /* menu-hover */
-/* line 302, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 .topnav a:hover {
   background-color: #1d739a;
 }
 
-/* line 306, ../sass/style.scss */
+/* line 302, ../sass/style.scss */
 .footer {
   padding-bottom: 2.8125em;
   padding-top: 1.1125em;
 }
-/* line 307, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 .footer a:hover {
   background-color: #949494;
   color: #FFFFFF;
 }
 
 /* adjustments */
-/* line 317, ../sass/style.scss */
+/* line 313, ../sass/style.scss */
 .bottomlogo {
   margin-bottom: 0em;
   padding: 0.45em;
@@ -366,62 +361,62 @@ ul {
 }
 
 /* NewsLetter & Follow Us */
-/* line 326, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .links .heads h3 {
   line-height: 0em;
 }
-/* line 329, ../sass/style.scss */
+/* line 325, ../sass/style.scss */
 .links .child-links a {
   line-height: 0em;
   display: block;
   padding-top: 5px;
 }
-/* line 334, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .links .env i {
   font-size: 3em;
 }
-/* line 337, ../sass/style.scss */
+/* line 333, ../sass/style.scss */
 .links .child-links a span {
   color: #868584;
   font-weight: 700;
 }
-/* line 341, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .links .socials, .links .signup {
   border-left: 5px #2ba6cb solid;
 }
 
-/* line 346, ../sass/style.scss */
+/* line 342, ../sass/style.scss */
 .socials a {
   font-size: 1em;
 }
-/* line 348, ../sass/style.scss */
+/* line 344, ../sass/style.scss */
 .socials a h4 {
   font-size: 0.8em;
   display: inline;
 }
 
-/* line 354, ../sass/style.scss */
+/* line 350, ../sass/style.scss */
 [class^="icon-"], [class*=" icon-"] {
   vertical-align: middle !important;
 }
 
-/* line 358, ../sass/style.scss */
+/* line 354, ../sass/style.scss */
 .child-socials {
   padding-top: 5px;
 }
-/* line 360, ../sass/style.scss */
+/* line 356, ../sass/style.scss */
 .child-socials .small-3 {
   padding-left: 0;
   padding-right: 0;
   float: left !important;
   width: 20%;
 }
-/* line 365, ../sass/style.scss */
+/* line 361, ../sass/style.scss */
 .child-socials .small-3:nth-child(2) {
   width: 17%;
 }
 
-/* line 371, ../sass/style.scss */
+/* line 367, ../sass/style.scss */
 ul.menu {
   list-style-type: none;
   margin-left: 0em;
