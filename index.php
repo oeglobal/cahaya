@@ -5,7 +5,7 @@
 				<div class="small-4 columns inside-left">
 					<?php dynamic_sidebar('left-sidebar'); ?>
 				</div>
-				<div class="small-8 columns">
+				<div class="small-8 columns content">
 					<?php if ( have_posts() ) : ?>
 						<?php while ( have_posts() ) : the_post(); ?>
 							<h1><?php the_title(); ?></h1>

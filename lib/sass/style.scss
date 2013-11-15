@@ -284,14 +284,22 @@ h1, h2, h3, h4 {
   font-family: "Metrophobic", sans-serif;
 }
 
-p, li, ul {
+p {
   font-size: 0.938em;
   line-height: 1.425em;
 }
 
-ul {
-	list-style-position: inside;
+.content {
+	li, ul {
+	  font-size: 0.938em;
+	  line-height: 1.425em;		
+	}
+
+	ul {
+		list-style-position: inside;
+	}
 }
+
 
 /* menu-hover */
 
