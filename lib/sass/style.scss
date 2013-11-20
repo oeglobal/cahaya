@@ -10,42 +10,53 @@ $em-base: 16px !default;
 
 /* colors */
 $text: #666;
-$blue: #177FA9;
-$blue-topnav: #54A1C5;
-$blue-delimeter: #4391B2;
+$blue: #5AA8C9;
+$blue-topnav: #3B85A5;
+$blue-delimeter: #3B85A5;
 $white: #FFFFFF;
 $grey-background: #E0E0E0;
 $grey-text: #949494;
 $grey-border: #D4D4D4;
+$white-background: #FAFAFA;
+$logo-text: #616161;
 
 body {
-	background: url('../../images/background.jpg') no-repeat top center $grey-background;
+	background: url('../../images/header-background.png') repeat-x top center $white-background;
 }
 
 .top_login {
-	background-color: $blue-topnav;
 	height: emCalc(16px);
-	margin-bottom: emCalc(45px);
+	margin-bottom: emCalc(14px);
 }
 
 .header {
-	color: $blue;
-	margin-bottom: emCalc(50px);
+	color: $logo-text;
+	margin-bottom: emCalc(32px);
 
-	a { color: $blue; }
+	a { color: $logo-text; }
 	span {
 		display: block;
 		clear: left;
 	}
-	.logo 	  { font-size: emCalc(42px); }
+
+	.logo, .sublogo {
+		float: left;
+	}
+
+	.sublogo {
+		padding-top: 6.5%;
+		padding-left: emCalc(30px);
+	}
+
 	.sublogo1 {	
 				font-size: emCalc(24px); 
 				text-transform: uppercase;
 			  }
 	.sublogo2 {	font-size: emCalc(22px); }
+
 	.tagline {
 		font-size: emCalc(22px);
-		padding-top: emCalc(47px);
+		padding-top: emCalc(26px);
 		text-align: right;
 	}
 }
@@ -59,6 +70,7 @@ body {
 	a {
 		color: $white;
 		font-size: emCalc(17px);
+		letter-spacing: 0.1pt;
 		line-height: emCalc(44px);
 		text-transform: uppercase;
 		
@@ -360,7 +372,8 @@ p {
 }
 
 .child-socials {
-  padding-top: 5px;
+  padding: 5px 0 10px 15px;
+
   .small-3 {
     padding-left: 0;
     padding-right: 0;

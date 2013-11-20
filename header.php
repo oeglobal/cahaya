@@ -19,12 +19,12 @@
 	</div>
 
 	<div class="row header">
-		<div class="small-5 columns">
-			<a href="<?php echo get_site_url(); ?>">
-				<span class="logo">OCWC Global 2014</span> 
+		<div class="small-6 columns">
+			<a href="<?php echo get_site_url(); ?>" class="logo"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.png" alt="OCWC 2014"/></a>
+			<div class="sublogo">
 				<span class="sublogo1">Ljubljana, Slovenia</span>
 				<span class="sublogo2">23 - 25 April 2014</span>
-			</a>
+			</div>
 		</div>
 		<div class="small-6 columns">
 			<div class="tagline">Open Education for a Multicultural World</div>
