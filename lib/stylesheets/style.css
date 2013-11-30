@@ -431,3 +431,30 @@ ul.menu {
   list-style-type: none;
   margin-left: 0em;
 }
+
+/* registration form */
+/* line 395, ../sass/style.scss */
+#gform_wrapper_1 input.ginput_quantity {
+  display: inline-block;
+}
+/* line 399, ../sass/style.scss */
+#gform_wrapper_1 .gfield_description {
+  padding-top: 0 !important;
+}
+/* line 401, ../sass/style.scss */
+#gform_wrapper_1 .gfield_description ul {
+  padding-left: 15px !important;
+}
+/* line 404, ../sass/style.scss */
+#gform_wrapper_1 .gfield_description li {
+  list-style: disc !important;
+}
+/* line 411, ../sass/style.scss */
+#gform_wrapper_1 .gfield_radio li {
+  margin-bottom: 0;
+}
+/* line 414, ../sass/style.scss */
+#gform_wrapper_1 .gfield_radio input {
+  margin-bottom: 3px;
+  margin-left: 3px;
+}

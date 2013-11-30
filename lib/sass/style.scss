@@ -389,3 +389,31 @@ ul.menu {
   list-style-type: none;
   margin-left: 0em;
 }
+
+/* registration form */
+#gform_wrapper_1 {
+	input.ginput_quantity {
+		display: inline-block;
+	}
+
+	.gfield_description {
+		padding-top: 0 !important;
+		ul {
+			padding-left: 15px !important;
+		}
+		li {
+			list-style: disc !important;
+		}
+	}
+
+	.gfield_radio {
+
+		li {
+			margin-bottom: 0;
+		}
+		input {
+			margin-bottom: 3px;
+			margin-left: 3px;
+		}
+	}
+}
