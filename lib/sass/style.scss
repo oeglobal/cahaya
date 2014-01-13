@@ -417,3 +417,19 @@ ul.menu {
 		}
 	}
 }
+
+.alignright {
+	padding: 2px;
+	border: solid 1px #EFEFEF;
+	margin: 10px 0 10px 10px;
+	box-shadow: 0px 0px 4px rgba(50, 50, 50, 0.75);
+	float: right;	
+}
+
+.alignleft {
+	padding: 2px;
+	border: solid 1px #EFEFEF;
+	margin: 10px;
+	box-shadow: 0px 0px 4px rgba(50, 50, 50, 0.75);
+	float: left;	
+}

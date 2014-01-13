@@ -458,3 +458,21 @@ ul.menu {
   margin-bottom: 3px;
   margin-left: 3px;
 }
+
+/* line 421, ../sass/style.scss */
+.alignright {
+  padding: 2px;
+  border: solid 1px #EFEFEF;
+  margin: 10px 0 10px 10px;
+  box-shadow: 0px 0px 4px rgba(50, 50, 50, 0.75);
+  float: right;
+}
+
+/* line 429, ../sass/style.scss */
+.alignleft {
+  padding: 2px;
+  border: solid 1px #EFEFEF;
+  margin: 10px;
+  box-shadow: 0px 0px 4px rgba(50, 50, 50, 0.75);
+  float: left;
+}
