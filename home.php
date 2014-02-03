@@ -1,8 +1,8 @@
 <?php get_header() ?>
 <?php $sticky = get_option( 'sticky_posts' ); ?>
-	<div class="row collapse white">
+	<div class="row foundation-collapse white">
 		<div class="small-12 columns">
-			<div class="row collapse slideshow">
+			<div class="row foundation-collapse slideshow">
 				<div class="small-12 columns">
 				<?php
 				$query = new WP_Query( array( 'post_type' => 'cahaya_slideshow', 'ignore_sticky_posts' => 1 )); 

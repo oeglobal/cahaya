@@ -433,3 +433,18 @@ ul.menu {
 	box-shadow: 0px 0px 4px rgba(50, 50, 50, 0.75);
 	float: left;	
 }
+
+
+/* ai1ec fallback */
+.row .row.foundation-collapse {
+	width: auto;
+	margin: 0;
+	max-width: none;
+}
+
+.row.foundation-collapse .column, .row.foundation-collapse .columns {
+position: relative;
+padding-left: 0;
+padding-right: 0;
+float: left;
+}

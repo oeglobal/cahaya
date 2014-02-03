@@ -18,9 +18,11 @@ function cahaya_init() {
 add_action( 'init', 'cahaya_init' );
 
 function zurb_jquery() {
-	wp_deregister_script('jquery'); 
-	wp_register_script('jquery', get_stylesheet_directory_uri().'/lib/javascripts/vendor/jquery.js' ,'', '1.10.1', true );
+	// wp_deregister_script('jquery'); 
+	// wp_register_script('jquery', get_stylesheet_directory_uri().'/lib/javascripts/vendor/jquery.js' ,'', '1.10.1', true );
 	wp_enqueue_script('jquery');
+	wp_enqueue_script('responsiveslides', get_stylesheet_directory_uri().'/lib/javascripts/plugins/responsiveslides.min.js', ('jquery'), '', false);
+	wp_enqueue_script('scripts', get_stylesheet_directory_uri().'/lib/javascripts/script.js', ('jquery'), '', false);
 }
 add_action( 'wp_enqueue_scripts', 'zurb_jquery');
 
