@@ -69,7 +69,7 @@
 					</div>
 					<div class="small-5 columns child-links">
 						<a href="http://eepurl.com/FFXL" target="_blank"><i class="icon-chevron-right"></i> <span>SIGN-UP</span></a>
-						<a href="http://www.ocwconsortium.org/en/aboutus/pressroom/newsletterarchive" target="_blank"><i class="icon-chevron-right"></i> <span>ARCHIVES</span></a>
+						<a href="http://www.ocwconsortium.org/news/newsletter/" target="_blank"><i class="icon-chevron-right"></i> <span>ARCHIVES</span></a>
 					</div>
 				</div>
 			</div>
@@ -88,6 +88,9 @@
 					</div>
 					<div class="small-3 columns">
 						<a href="http://www.youtube.com/user/OCWConsortium" target="_blank"><i class="icon-youtube-sign icon-2x"></i> <h4>YOUTUBE</h4></a>
+					</div>
+                    <div class="small-3 columns">
+						<a href="http://www.linkedin.com/groups?home=&gid=7443760&trk=anet_ug_hm" target="_blank"><i class="icon-linkedin-sign icon-2x"></i> <h4>Linkedin</h4></a>
 					</div>
 					</div>
 			</div>

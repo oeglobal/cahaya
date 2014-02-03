@@ -20,4 +20,4 @@
 			<?php get_template_part('logos'); ?>
 		</div>
 	</div>
-<?php get_footer() ?>
+<?php get_footer() ?> 
