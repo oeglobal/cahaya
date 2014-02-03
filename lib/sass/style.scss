@@ -443,8 +443,12 @@ ul.menu {
 }
 
 .row.foundation-collapse .column, .row.foundation-collapse .columns {
-position: relative;
-padding-left: 0;
-padding-right: 0;
-float: left;
+	position: relative;
+	padding-left: 0;
+	padding-right: 0;
+	float: left;
+}
+
+.ai1ec-cost {
+	display: none;
 }

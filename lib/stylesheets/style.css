@@ -492,3 +492,8 @@ ul.menu {
   padding-right: 0;
   float: left;
 }
+
+/* line 452, ../sass/style.scss */
+.ai1ec-cost {
+  display: none;
+}
