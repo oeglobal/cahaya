@@ -497,3 +497,8 @@ ul.menu {
 .ai1ec-cost {
   display: none;
 }
+
+/* line 456, ../sass/style.scss */
+.ai1ec-calendar-toolbar {
+  display: none;
+}
