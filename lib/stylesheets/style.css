@@ -499,6 +499,6 @@ ul.menu {
 }
 
 /* line 456, ../sass/style.scss */
-.ai1ec-calendar-toolbar, .btn-toolbar, .ai1ec-pagination {
+.ai1ec-calendar-toolbar, .btn-toolbar, .ai1ec-pagination, .ai1ec-source-link {
   display: none;
 }
