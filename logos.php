@@ -1,14 +1,41 @@
-
-	<div class="small-12 small-centered">
-		<ul class="small-block-grid-8 bottomlogo" >
-			<?php $dir = get_stylesheet_directory_uri().'/images'; ?>
-			<li><a href="http://www.ocwconsortium.org/" target="_blank"><img src="<?php echo $dir; ?>/logo-ocwc.gif" /></a></li>
-			<li><a href="http://www.k4all.org/" target="_blank"><img src="<?php echo $dir; ?>/logo-k4a.gif" /></a></li>
-			<li><a href="http://www.ijs.si/" target="_blank"><img src="<?php echo $dir; ?>/logo-ijs.gif" /></a></li>
-			<li><a href="http://www.translectures.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-transectures.gif" /></a></li>
-			<li><a href="http://mediamixer.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-mm.gif" /></a></li>
-			<li><a href="http://videolectures.net/" target="_blank"><img src="<?php echo $dir; ?>/logo-vidlec.gif" /></a></li>
-			<li><a href="http://www.xlike.org/" target="_blank"><img src="<?php echo $dir; ?>/logo-xlike.gif" /></a></li>
-			<li><a href="http://openeducationeuropa.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-oe.png" /></a></li>
-		</ul>
+<?php $dir = get_stylesheet_directory_uri().'/images'; ?>
+<div class="row">
+	<div class="small-4 columns">
+		<h3>Gold sponsor</h3>
+		<p>
+			<a href="http://www.posta.si" target="_blank"><img src="<?php echo $dir; ?>/logo-posta.png" /></a><br />
+			<a href="http://videolectures.net/" target="_blank"><img src="<?php echo $dir; ?>/logo-vidlec.gif" /></a>
+		</p>
 	</div>
+	<div class="small-4 columns">
+		<h3>Silver sponsors</h3>
+		<p>
+			<a href="http://www.translectures.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-transectures.gif" /></a><br />
+			<a href="http://www.xlike.org/" target="_blank"><img src="<?php echo $dir; ?>/logo-xlike.gif" /></a>
+		</p>
+	</div>
+	<div class="small-4 columns">
+		<h3>Bronze sponsor</h3>
+		<p>
+			<a href="http://mediamixer.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-mm.gif" /></a>
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="small-4 columns">
+		<h3>Patronage</h3>
+		<p><a href="http://www.up-rs.si/eng/">Under the patronage of the President of the Republic of Slovenia</a></p>
+	</div>
+	<div class="small-4 columns pull-left">
+		<h3>Media sponsor</h3>
+		<p>
+			<a href="http://openeducationeuropa.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-oe.png" /></a>
+		</p>
+	</div>
+	<div class="small-4 columns">
+		<h3>Organized by</h3>
+		<p><a href="http://www.ocwconsortium.org/" target="_blank"><img src="<?php echo $dir; ?>/logo-ocwc.gif" /></a></p>
+		<p><a href="http://www.k4all.org/" target="_blank"><img src="<?php echo $dir; ?>/logo-k4a.gif" /></a><br /></p>
+		<p><a href="http://www.ijs.si/" target="_blank"><img src="<?php echo $dir; ?>/logo-ijs.gif" /></a></p>
+	</div>
+</div>

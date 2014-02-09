@@ -210,7 +210,7 @@ body {
 /* line 171, ../sass/style.scss */
 .insights {
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   color: #666666;
   padding: 1.25em;
 }
