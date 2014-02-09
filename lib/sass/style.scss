@@ -456,3 +456,71 @@ ul.menu {
 .ai1ec-calendar-toolbar, .btn-toolbar, .ai1ec-pagination, .ai1ec-source-link {
 	display: none;
 }
+
+.custom-schedule {
+	td, th {
+		padding: 8px;
+		// border: 1px solid black;
+		vertical-align: text-bottom;
+	}
+
+	tr {
+		border-top: 1px solid black;
+	}
+
+	.topic-title {
+		display: inline-block;
+		padding-bottom: 10px;
+		font-weight: bold;
+		line-height: 20px;
+	}
+
+	li {
+		list-style-type: none;
+		padding-bottom: 5px;
+		font-size: 16px;
+
+		a { 
+			color: #666;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.time-col {
+		width: 4%;
+	}
+	.room-col {
+		width: 15%;
+	}
+}
+
+.legend {
+	margin-top: 5px;
+	list-style-type: none;
+	li {
+		// float: left;
+		width: 15%;
+		line-height: 2em;
+		padding-left: 10px;
+	}
+}
+
+.track {
+	&.research 		{ background-color: rgba(185, 222, 55, 0.3); }
+	&.dissemination { background-color: rgba(105, 210, 231, 0.5); }
+	&.policy 	    { background-color: rgba(167, 219, 216, 0.3); }
+	&.pedagogical   { background-color: rgba(102, 106, 200, 0.3); }
+	&.keynote 	    { background-color: rgba(2, 106, 90, 0.3); 	}
+	&.poster		{ 
+		background-color: rgba(255, 238, 52, 0.5); 
+		margin: 0 0px 0 -8px;
+		width: 108%;
+		display: block;
+		padding: 0 8px 0 8px;
+		height: 8em;
+	}
+
+	&.box { width: 10px; height: 10px; display: inline-block; }
+}

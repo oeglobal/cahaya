@@ -502,3 +502,90 @@ ul.menu {
 .ai1ec-calendar-toolbar, .btn-toolbar, .ai1ec-pagination, .ai1ec-source-link {
   display: none;
 }
+
+/* line 461, ../sass/style.scss */
+.custom-schedule td, .custom-schedule th {
+  padding: 8px;
+  vertical-align: text-bottom;
+}
+/* line 467, ../sass/style.scss */
+.custom-schedule tr {
+  border-top: 1px solid black;
+}
+/* line 471, ../sass/style.scss */
+.custom-schedule .topic-title {
+  display: inline-block;
+  padding-bottom: 10px;
+  font-weight: bold;
+  line-height: 20px;
+}
+/* line 478, ../sass/style.scss */
+.custom-schedule li {
+  list-style-type: none;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+/* line 483, ../sass/style.scss */
+.custom-schedule li a {
+  color: #666;
+}
+/* line 486, ../sass/style.scss */
+.custom-schedule li a:hover {
+  text-decoration: underline;
+}
+/* line 491, ../sass/style.scss */
+.custom-schedule .time-col {
+  width: 4%;
+}
+/* line 494, ../sass/style.scss */
+.custom-schedule .room-col {
+  width: 15%;
+}
+
+/* line 499, ../sass/style.scss */
+.legend {
+  margin-top: 5px;
+  list-style-type: none;
+}
+/* line 502, ../sass/style.scss */
+.legend li {
+  width: 15%;
+  line-height: 2em;
+  padding-left: 10px;
+}
+
+/* line 511, ../sass/style.scss */
+.track.research {
+  background-color: rgba(185, 222, 55, 0.3);
+}
+/* line 512, ../sass/style.scss */
+.track.dissemination {
+  background-color: rgba(105, 210, 231, 0.5);
+}
+/* line 513, ../sass/style.scss */
+.track.policy {
+  background-color: rgba(167, 219, 216, 0.3);
+}
+/* line 514, ../sass/style.scss */
+.track.pedagogical {
+  background-color: rgba(102, 106, 200, 0.3);
+}
+/* line 515, ../sass/style.scss */
+.track.keynote {
+  background-color: rgba(2, 106, 90, 0.3);
+}
+/* line 516, ../sass/style.scss */
+.track.poster {
+  background-color: rgba(255, 238, 52, 0.5);
+  margin: 0 0px 0 -8px;
+  width: 108%;
+  display: block;
+  padding: 0 8px 0 8px;
+  height: 8em;
+}
+/* line 525, ../sass/style.scss */
+.track.box {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}

@@ -23,6 +23,7 @@ function zurb_jquery() {
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('responsiveslides', get_stylesheet_directory_uri().'/lib/javascripts/plugins/responsiveslides.min.js', ('jquery'), '', false);
 	wp_enqueue_script('scripts', get_stylesheet_directory_uri().'/lib/javascripts/script.js', ('jquery'), '', false);
+	wp_enqueue_script('qtip', get_stylesheet_directory_uri().'/lib/javascripts/plugins/qtip/jquery.qtip.min.js', ('jquery'), '', false);
 }
 add_action( 'wp_enqueue_scripts', 'zurb_jquery');
 
