@@ -16,7 +16,12 @@
 						if (count($image_list) > 0) {
 							$image_src = $image_list[0];
 						}
-						echo '<li class="slide"><img src="'.$image_src.'" /></li>';
+						
+						if ( get_field('slide_url', $post->ID) ) {
+							echo '<li class="slide"><a href="'.get_field('slide_url', $post->ID).'"><img src="'.$image_src.'" /></div></li>';
+						} else {
+							echo '<li class="slide"><img src="'.$image_src.'" /></li>';
+						}
 					}
 					echo '</ul>';
 				}
