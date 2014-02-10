@@ -18,7 +18,7 @@
 						}
 						
 						if ( get_field('slide_url', $post->ID) ) {
-							echo '<li class="slide"><a href="'.get_field('slide_url', $post->ID).'"><img src="'.$image_src.'" /></div></li>';
+							echo '<li class="slide"><a href="'.get_field('slide_url', $post->ID).'"><img src="'.$image_src.'" /></a></li>';
 						} else {
 							echo '<li class="slide"><img src="'.$image_src.'" /></li>';
 						}
