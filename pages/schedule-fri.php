@@ -1,6 +1,6 @@
 <?php
 /*
-	Template name: Schedule - Wednesday
+	Template name: Schedule - Friday
 */
 ?>
 <?php get_header() ?>
@@ -12,7 +12,7 @@
 						<?php while ( have_posts() ) : the_post(); ?>
 							<div><?php the_content(); ?></div>
 
-							<?php get_template_part('partials/event_wednesday'); ?>
+							<?php get_template_part('partials/event_friday'); ?>
 						<?php endwhile; ?>
 					<?php else : ?>
 						<h1>404 Not found</h1>

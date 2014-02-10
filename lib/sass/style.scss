@@ -500,8 +500,6 @@ ul.menu {
 	margin-top: 5px;
 	list-style-type: none;
 	li {
-		// float: left;
-		width: 15%;
 		line-height: 2em;
 		padding-left: 10px;
 	}
@@ -523,4 +521,9 @@ ul.menu {
 	}
 
 	&.box { width: 10px; height: 10px; display: inline-block; }
+}
+
+.small-12.columns.content {
+	padding-top: 30px;
+	padding-bottom: 50px;
 }

@@ -1,7 +1,14 @@
 <?php global $filter; ?>
 
 <div class="row">
-    <div class="small-12 columns">
+    <div class="small-6 columns">
+        <dl class="sub-nav">
+            <dd class="active"><a href="/schedule/">Day 1, Wednesday 23. April</a></dd>
+            <dd><a href="/schedule/thursday/">Day 2, Thursday 24. April</a></dd>
+            <dd><a href="/schedule/friday/">Day 3, Friday 25. April</a></dd>
+        </dl>
+    </div>
+    <div class="small-3 columns">
         <strong>Legend</strong>
         <ul class="legend">
             <li class="research track">Research track</li>

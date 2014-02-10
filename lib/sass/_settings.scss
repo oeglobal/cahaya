@@ -1059,12 +1059,12 @@ $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 
 // Margin and padding
 
-// $sub-nav-list-margin: emCalc(-4px) 0 emCalc(18px);
-// $sub-nav-list-padding-top: emCalc(4px);
+$sub-nav-list-margin: emCalc(-4px) 0 emCalc(18px);
+$sub-nav-list-padding-top: emCalc(10px);
 
 // Definition
 
-// $sub-nav-font-size: emCalc(14px);
+$sub-nav-font-size: emCalc(16px);
 // $sub-nav-font-color: #999;
 // $sub-nav-font-weight: normal;
 // $sub-nav-text-decoration: none;
@@ -1075,7 +1075,7 @@ $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 // $sub-nav-active-font-weight: bold;
 // $sub-nav-active-bg: $primary-color;
 // $sub-nav-active-color: #fff;
-// $sub-nav-active-padding: emCalc(3px) emCalc(9px);
+$sub-nav-active-padding: emCalc(6px) emCalc(14px);
 // $sub-nav-active-cursor: $cursor-default-value;
 
 //

@@ -549,32 +549,31 @@ ul.menu {
 }
 /* line 502, ../sass/style.scss */
 .legend li {
-  width: 15%;
   line-height: 2em;
   padding-left: 10px;
 }
 
-/* line 511, ../sass/style.scss */
+/* line 509, ../sass/style.scss */
 .track.research {
   background-color: rgba(185, 222, 55, 0.3);
 }
-/* line 512, ../sass/style.scss */
+/* line 510, ../sass/style.scss */
 .track.dissemination {
   background-color: rgba(105, 210, 231, 0.5);
 }
-/* line 513, ../sass/style.scss */
+/* line 511, ../sass/style.scss */
 .track.policy {
   background-color: rgba(167, 219, 216, 0.3);
 }
-/* line 514, ../sass/style.scss */
+/* line 512, ../sass/style.scss */
 .track.pedagogical {
   background-color: rgba(102, 106, 200, 0.3);
 }
-/* line 515, ../sass/style.scss */
+/* line 513, ../sass/style.scss */
 .track.keynote {
   background-color: rgba(2, 106, 90, 0.3);
 }
-/* line 516, ../sass/style.scss */
+/* line 514, ../sass/style.scss */
 .track.poster {
   background-color: rgba(255, 238, 52, 0.5);
   margin: 0 0px 0 -8px;
@@ -583,9 +582,15 @@ ul.menu {
   padding: 0 8px 0 8px;
   height: 8em;
 }
-/* line 525, ../sass/style.scss */
+/* line 523, ../sass/style.scss */
 .track.box {
   width: 10px;
   height: 10px;
   display: inline-block;
+}
+
+/* line 526, ../sass/style.scss */
+.small-12.columns.content {
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
