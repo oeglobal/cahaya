@@ -479,6 +479,11 @@ ul.menu {
 		list-style-type: none;
 		padding-bottom: 5px;
 		font-size: 16px;
+		border-bottom: 1px solid rgba(6,6,6,0.2);
+
+		&:last-child {
+			border-bottom: none;
+		}
 
 		a { 
 			color: #666;
