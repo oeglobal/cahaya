@@ -26,7 +26,7 @@
 		<h3>Patronage</h3>
 		<p><a href="http://www.up-rs.si/eng/"><img src="<?php echo $dir; ?>/logo-prs.png" /></a></p>
 
-		<h3>With the support</h3>
+		<h3>Support</h3>
 		<p>
 			<a href="http://www.mizs.gov.si/en/" target="_blank"><img src="<?php echo $dir; ?>/logo-mizs.jpg" /></a>
 		</p>
