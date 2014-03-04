@@ -50,7 +50,11 @@
         </tr>
         <tr>
             <td class="schedule-time">09:30</td>
-            <td class="introduction">openingupSlovenia</td>
+            <td class="introduction"><?php 
+                    $filter = array(post_ids => array(714));
+                    get_template_part('partials/event_list_topic');
+                ?>
+            </td>
             <td></td>
             <td></td>
             <td></td>

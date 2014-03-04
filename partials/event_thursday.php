@@ -89,7 +89,11 @@
         </tr>
         <tr>
         	<td class="schedule-time">14:30</td>
-        	<td>Internatinal debate</td>
+        	<td><?php 
+                    $filter = array(post_ids => array(715));
+                    get_template_part('partials/event_list_topic');
+                ?>
+            </td>
             <td class="research track"><?php
                 $filter = array(tag_ids => array(31));
                 get_template_part('partials/event_list_topic');
@@ -140,7 +144,11 @@
         </tr>
         <tr>
             <td class="schedule-time">20:00</td>
-            <td colspan="7">Cocktail Party & ACE Awards</td>
+            <td colspan="7"><?php 
+                    $filter = array(post_ids => array(716));
+                    get_template_part('partials/event_list_topic');
+                ?>
+            </td>
         </tr>        
     </tbody>
 </table>
