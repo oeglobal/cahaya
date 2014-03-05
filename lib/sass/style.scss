@@ -48,8 +48,8 @@ body {
 		padding-left: emCalc(30px);
 	}
 
-	.sublogo1 {	
-				font-size: emCalc(24px); 
+	.sublogo1 {
+				font-size: emCalc(24px);
 				text-transform: uppercase;
 			  }
 	.sublogo2 {	font-size: emCalc(22px); }
@@ -63,7 +63,7 @@ body {
 
 .topnav {
 	background-color: $blue;
-	
+
 	ul { list-style-type: none;
 		 margin-bottom: 0; }
 	li { display: inline-block; }
@@ -73,7 +73,7 @@ body {
 		letter-spacing: 0.1pt;
 		line-height: emCalc(44px);
 		text-transform: uppercase;
-		
+
 		padding: 0 emCalc(10px);
 		border-right: emCalc(1px) solid $blue-delimeter;
 	}
@@ -97,7 +97,7 @@ body {
 
 		margin-left: 0;
 		position: absolute;
-		
+
 		z-index: 10;
 
 		li {
@@ -176,7 +176,7 @@ $slideshow-height: emCalc(412px);
 		margin: emCalc(5px);
 	}
 	padding: emCalc(20px);
-	
+
 }
 
 .home-pages-featured {
@@ -224,7 +224,7 @@ $slideshow-height: emCalc(412px);
 	li {
 		list-style-type: none;
 	}
-	a, .textwidget { 
+	a, .textwidget {
 		color: $grey-text;
 		font-size: emCalc(16px);
 	}
@@ -304,7 +304,7 @@ p {
 .content {
 	li, ul {
 	  font-size: 0.938em;
-	  line-height: 1.425em;		
+	  line-height: 1.425em;
 	}
 
 	ul {
@@ -423,7 +423,7 @@ ul.menu {
 	border: solid 1px #EFEFEF;
 	margin: 10px 0 10px 10px;
 	box-shadow: 0px 0px 4px rgba(50, 50, 50, 0.75);
-	float: right;	
+	float: right;
 }
 
 .alignleft {
@@ -431,7 +431,7 @@ ul.menu {
 	border: solid 1px #EFEFEF;
 	margin: 10px;
 	box-shadow: 0px 0px 4px rgba(50, 50, 50, 0.75);
-	float: left;	
+	float: left;
 }
 
 
@@ -485,7 +485,7 @@ ul.menu {
 			border-bottom: none;
 		}
 
-		a { 
+		a {
 			color: #666;
 		}
 		a:hover {
@@ -511,13 +511,14 @@ ul.menu {
 }
 
 .track {
-	&.research 		{ background-color: rgba(185, 222, 55, 0.3); }
+	&.research 		 { background-color: rgba(185, 222, 55, 0.3); }
 	&.dissemination { background-color: rgba(105, 210, 231, 0.5); }
-	&.policy 	    { background-color: rgba(167, 219, 216, 0.3); }
+	&.policy 	     { background-color: rgba(167, 219, 216, 0.3); }
 	&.pedagogical   { background-color: rgba(102, 106, 200, 0.3); }
 	&.keynote 	    { background-color: rgba(2, 106, 90, 0.3); 	}
-	&.poster		{ 
-		background-color: rgba(255, 238, 52, 0.5); 
+  &.gogn          { background-color: rgba(176, 199, 69, 0.3) }
+	&.poster		{
+		background-color: rgba(255, 238, 52, 0.5);
 		margin: 0 0px 0 -8px;
 		width: 108%;
 		display: block;

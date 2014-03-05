@@ -28,7 +28,7 @@
             <th class="room-col">White Room&nbsp;2</th>
             <th class="room-col">White Room&nbsp;3</th>
             <th class="room-col">Silver Room</th>
-            <!-- <th class="room-col">Glass Room</th> -->
+            <th class="room-col">Glass Room</th>
         </tr>
     </thead>
     <tbody>
@@ -38,7 +38,8 @@
             <td></td>
             <td></td>
             <td></td>
-            <td></td>            
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td class="schedule-time">09:00</td>
@@ -46,11 +47,12 @@
             <td></td>
             <td></td>
             <td></td>
-            <td></td>            
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td class="schedule-time">09:30</td>
-            <td class="introduction"><?php 
+            <td class="introduction"><?php
                     $filter = array(post_ids => array(714));
                     get_template_part('partials/event_list_topic');
                 ?>
@@ -58,11 +60,12 @@
             <td></td>
             <td></td>
             <td></td>
-            <td></td>            
+            <td></td>
+            <td></td>
         </tr>
         <tr class="break">
             <td class="schedule-time">10:30</td>
-            <td colspan="7">Coffee break</td>            
+            <td colspan="7">Coffee break</td>
         </tr>
         <tr>
             <td class="schedule-time">11:00</td>
@@ -75,7 +78,11 @@
             <td></td>
             <td></td>
             <td></td>
-            <!-- <td>Workshop</td> -->
+            <td class="gogn track"><?php
+                    $filter = array(post_ids => array(720));
+                    get_template_part('partials/event_list_topic');
+                ?>
+            </td>
         </tr>
         <tr>
             <td class="schedule-time">12:00</td>
@@ -104,7 +111,11 @@
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
-            <!-- <td>Workshop</td> -->
+            <td class="gogn track"><?php
+                    $filter = array(post_ids => array(720));
+                    get_template_part('partials/event_list_topic');
+                ?>
+            </td>
         </tr>
         <tr>
             <td class="schedule-time">15:30</td>
@@ -140,7 +151,11 @@
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
-            <!-- <td>Workshop</td> -->
+            <td class="gogn track"><?php
+                    $filter = array(post_ids => array(720));
+                    get_template_part('partials/event_list_topic');
+                ?>
+            </td>
         </tr>
         <tr>
             <td class="schedule-time">18:00</td>

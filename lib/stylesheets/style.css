@@ -579,6 +579,10 @@ ul.menu {
   background-color: rgba(2, 106, 90, 0.3);
 }
 /* line 519, ../sass/style.scss */
+.track.gogn {
+  background-color: rgba(176, 199, 69, 0.3);
+}
+/* line 520, ../sass/style.scss */
 .track.poster {
   background-color: rgba(255, 238, 52, 0.5);
   margin: 0 0px 0 -8px;
@@ -587,14 +591,14 @@ ul.menu {
   padding: 0 8px 0 8px;
   height: 8em;
 }
-/* line 528, ../sass/style.scss */
+/* line 529, ../sass/style.scss */
 .track.box {
   width: 10px;
   height: 10px;
   display: inline-block;
 }
 
-/* line 531, ../sass/style.scss */
+/* line 532, ../sass/style.scss */
 .small-12.columns.content {
   padding-top: 30px;
   padding-bottom: 50px;
