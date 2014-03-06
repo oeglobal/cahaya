@@ -2,22 +2,17 @@
 <div class="row">
 	<div class="small-4 columns">
 		<h3>Platinum sponsor</h3>
-		<p>
-			<a href="http://www.posta.si" target="_blank"><img src="<?php echo $dir; ?>/logo-posta.png" /></a>
-		</p>
+		<p><a href="http://www.posta.si" target="_blank"><img src="<?php echo $dir; ?>/logo-posta.jpg" /></a></p>
 	</div>
 	<div class="small-4 columns">
 		<h3>Gold sponsor</h3>
-		<p>
-			<a href="http://videolectures.net/" target="_blank"><img src="<?php echo $dir; ?>/logo-vidlec.gif" /></a>
-		</p>
+		<p><a href="http://videolectures.net/" target="_blank"><img src="<?php echo $dir; ?>/logo-vidlec.gif" /></a></p>
 	</div>
 	<div class="small-4 columns">
 		<h3>Silver sponsors</h3>
-		<p>
-			<a href="http://www.translectures.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-transectures.gif" /></a><br />
-			<a href="http://www.xlike.org/" target="_blank"><img src="<?php echo $dir; ?>/logo-xlike.gif" /></a>
-			<a href="http://mediamixer.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-mm.gif" /></a>
+		<p><a href="http://www.translectures.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-transectures.gif" /></a></p>
+		<p><a href="http://www.xlike.org/" target="_blank"><img src="<?php echo $dir; ?>/logo-xlike.gif" /></a></p>
+		<p><a href="http://mediamixer.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-mm.jpg" /></a></p>
 		</p>
 	</div>
 </div>
