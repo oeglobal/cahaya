@@ -31,4 +31,5 @@
 		</script>
 	</li>
 <?php endforeach; ?>
+</ul>
 <?php wp_reset_postdata(); ?>
