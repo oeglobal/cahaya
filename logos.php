@@ -13,6 +13,7 @@
 		<p><a href="http://www.translectures.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-transectures.gif" /></a></p>
 		<p><a href="http://www.xlike.org/" target="_blank"><img src="<?php echo $dir; ?>/logo-xlike.gif" /></a></p>
 		<p><a href="http://mediamixer.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-mm.jpg" /></a></p>
+		<p><a href="http://www.medex.si/" target="_blank"><img src="<?php echo $dir; ?>/logo-medex.jpg" /></a></p>
 		</p>
 	</div>
 </div>
