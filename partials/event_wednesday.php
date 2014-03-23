@@ -43,7 +43,11 @@
         </tr>
         <tr>
             <td class="schedule-time">09:00</td>
-            <td class="introduction">Welcome and introduction</td>
+            <td class="introduction"><?php
+                    $filter = array(post_ids => array(736));
+                    get_template_part('partials/event_list_topic');
+                ?>
+            </td>
             <td></td>
             <td></td>
             <td></td>
@@ -51,7 +55,7 @@
             <td></td>
         </tr>
         <tr>
-            <td class="schedule-time">09:30</td>
+            <td class="schedule-time">09:10</td>
             <td class="introduction"><?php
                     $filter = array(post_ids => array(714));
                     get_template_part('partials/event_list_topic');
