@@ -58,7 +58,7 @@
             <td colspan="7">Coffee break</td>
         </tr>
         <tr>
-            <td class="schedule-time">11:10</td>
+            <td class="schedule-time">11:00</td>
             <td class="openingupslovenia track"><?php
                     $filter = array(post_ids => array(744, 743));
                     get_template_part('partials/event_list_topic');
