@@ -5,7 +5,11 @@
 			<div class="row foundation-collapse slideshow">
 				<div class="small-12 columns">
 				<?php
-				$query = new WP_Query( array( 'post_type' => 'cahaya_slideshow', 'ignore_sticky_posts' => 1 )); 
+				$query = new WP_Query( array(
+										'post_type' => 'cahaya_slideshow',
+										'ignore_sticky_posts' => 1,
+										'orderby' => 'rand'
+									));
 
 				if ( $query->have_posts() ) {
 					echo '<ul class="rslides">';
@@ -16,7 +20,7 @@
 						if (count($image_list) > 0) {
 							$image_src = $image_list[0];
 						}
-						
+
 						if ( get_field('slide_url', $post->ID) ) {
 							echo '<li class="slide"><a href="'.get_field('slide_url', $post->ID).'"><img src="'.$image_src.'" /></a></li>';
 						} else {
@@ -30,7 +34,7 @@
 				<?php /*
 				<div class="small-8 columns">
 				<?php
-				$query = new WP_Query( array( 'post_type' => 'cahaya_slideshow', 'ignore_sticky_posts' => 1 )); 
+				$query = new WP_Query( array( 'post_type' => 'cahaya_slideshow', 'ignore_sticky_posts' => 1 ));
 
 				if ( $query->have_posts() ) {
 					echo '<ul class="rslides">';
@@ -49,7 +53,7 @@
 					$query = new WP_Query( array(
 						'post__not_in' => $sticky,
 						'ignore_sticky_posts' => 1,
-						'cat' => '1' 
+						'cat' => '1'
 					));
 					while ( $query->have_posts() ) {
 						$query->the_post();
@@ -64,7 +68,7 @@
 	</div>
 	<div class="row links child-socials  white">
 			<div class="small-5 columns signup">
-				<div class="row">					
+				<div class="row">
 					<div class="small-5 columns heads">
 						<h4>SIGN-UP FOR OUR</h4>
 						<h3>NEWSLETTER</h3>
@@ -129,13 +133,13 @@
 			?>
 		</div>
 		<div class="small-6 columns">
-				<a class="twitter-timeline"  href="https://twitter.com/search?q=%23ocwcglobal" data-widget-id="251736808315043840">Tweets about "#ocwcglobal"</a>	
+				<a class="twitter-timeline"  href="https://twitter.com/search?q=%23ocwcglobal" data-widget-id="251736808315043840">Tweets about "#ocwcglobal"</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div>
 	</div>
 	<div class="row insights white">
 		<?php get_template_part('logos'); ?>
-	</div>	
+	</div>
 	<div class="row white insights">
 		<div class="small-5 columns"><hr /></div>
 		<div class="small-2 columns">
@@ -150,5 +154,5 @@
 	<div class="row white home-pages-featured thumbnails blue-bottom"></div>
 		<?php dynamic_sidebar('home-pages'); ?>
 	</div>
-	
+
 <?php get_footer() ?>
