@@ -516,6 +516,7 @@ ul.menu {
 	&.policy 	     { background-color: rgba(167, 219, 216, 0.3); }
 	&.pedagogical   { background-color: rgba(102, 106, 200, 0.3); }
 	&.keynote 	    { background-color: rgba(2, 106, 90, 0.3); 	}
+	&.openingupslovenia { background-color: rgba(240,120,24, 0.3); }
   &.gogn          { background-color: rgba(176, 199, 69, 0.3) }
 	&.poster		{
 		background-color: rgba(255, 238, 52, 0.5);
@@ -532,4 +533,8 @@ ul.menu {
 .small-12.columns.content {
 	padding-top: 30px;
 	padding-bottom: 50px;
+}
+
+.sub-nav dt, .sub-nav dd {
+	margin-left: 2em;
 }

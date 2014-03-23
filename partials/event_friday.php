@@ -1,22 +1,8 @@
 <?php global $filter; ?>
 
 <div class="row">
-    <div class="small-8 columns">
-    	<dl class="sub-nav">
-    		<dd><a href="/2014/schedule/">Day 1, Wednesday 23. April</a></dd>
-    		<dd><a href="/2014/schedule/thursday/">Day 2, Thursday 24. April</a></dd>
-    		<dd class="active"><a href="/2014/schedule/friday/">Day 3, Friday 25. April</a></dd>
-    	</dl>
-    </div>
-    <div class="small-3 columns">
-        <strong>Legend</strong>
-        <ul class="legend">
-            <li class="research track">Research track</li>
-            <li class="pedagogical track">Pedagogical track</li>
-            <li class="policy track">Policy track</li>
-            <li class="dissemination track">Dissemination track</li>
-        </ul>
-    </div>
+    <?php get_template_part('partials/event_days'); ?>
+    <?php get_template_part('partials/event_legend'); ?>
 </div>
 
 <table class="custom-schedule">

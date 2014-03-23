@@ -24,7 +24,6 @@
 	?>
 	<li class="event-list-item">
 		<a href="<?php echo $event->post->guid . $event->instance_id; ?>" target="_blank"><?php echo $event->post->post_title; ?></a>
-		<?php /* <?php echo $event->post->post_title; ?> */ ?>
 		<script type="text/template">
 			<strong><?php echo $event->post->post_title; ?></strong>
 			<p><?php echo the_field('event_speaker', $event->post->ID); ?></p>
