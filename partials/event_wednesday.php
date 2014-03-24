@@ -33,6 +33,10 @@
                     $filter = array(post_ids => array(736));
                     get_template_part('partials/event_list_topic');
                 ?>
+                <p class="names">
+                    Larry Cooperman<br />
+                    Colin de la Higuera
+                </p>
             </td>
             <td></td>
             <td></td>
@@ -46,6 +50,12 @@
                     $filter = array(post_ids => array(714));
                     get_template_part('partials/event_list_topic');
                 ?>
+                <p class="names">
+                    Jernej Pikalo<br />
+                    Androulla Vassiliou<br />
+                    Mitja Jermol<br />
+                    Fred Mulder<br />
+                </p>
             </td>
             <td></td>
             <td></td>
@@ -63,6 +73,9 @@
                     $filter = array(post_ids => array(744, 743));
                     get_template_part('partials/event_list_topic');
                 ?>
+                <p class="names">
+                    Zoran Stančič
+                </p>
             </td>
             <td></td>
             <td></td>

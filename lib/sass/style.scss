@@ -309,6 +309,7 @@ p {
 
 	ul {
 		list-style-position: inside;
+		margin-bottom: 5px;
 	}
 }
 
@@ -537,4 +538,11 @@ ul.menu {
 
 .sub-nav dt, .sub-nav dd {
 	margin-left: 2em;
+}
+
+.names {
+	font-size: 12px;
+	color: #000;
+	padding: 0;
+	margin:  0;
 }
