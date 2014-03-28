@@ -85,11 +85,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td class="gogn track"><?php
-                    $filter = array(post_ids => array(720));
-                    get_template_part('partials/event_list_topic');
-                ?>
-            </td>
+            <td></td>
         </tr>
         <tr>
             <td class="schedule-time">11:15</td>
@@ -102,11 +98,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td class="gogn track"><?php
-                    $filter = array(post_ids => array(720));
-                    get_template_part('partials/event_list_topic');
-                ?>
-            </td>
+            <td></td>
         </tr>
         <tr>
             <td class="schedule-time">12:00</td>
