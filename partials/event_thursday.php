@@ -118,7 +118,7 @@
                 ?>
             </td>
             <td></td>
-            <td rowspan="2" class="dissemination track"><?php
+            <td class="dissemination track"><?php
                     $filter = array(post_ids => array(512, 521, 520, 519));
                     get_template_part('partials/event_list_topic');
                 ?>
