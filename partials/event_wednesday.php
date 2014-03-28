@@ -70,14 +70,18 @@
         <tr>
             <td class="schedule-time">11:00</td>
             <td class="openingupslovenia track"><?php
-                    $filter = array(post_ids => array(744, 743));
+                    $filter = array(post_ids => array(744));
                     get_template_part('partials/event_list_topic');
                 ?>
                 <p class="names">
                     Zoran Stančič
                 </p>
             </td>
-            <td></td>
+            <td class="openingupslovenia track"><?php
+                    $filter = array(post_ids => array(743));
+                    get_template_part('partials/event_list_topic');
+                ?>
+            </td>
             <td></td>
             <td></td>
             <td></td>
