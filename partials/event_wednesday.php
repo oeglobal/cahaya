@@ -106,12 +106,12 @@
         </tr>
         <tr>
             <td class="schedule-time">13:30</td>
-            <td></td>
             <td class="research track"><?php
                 $filter = array(tag_ids => array(28));
                 get_template_part('partials/event_list_topic');
                 ?>
             </td>
+            <td></td>
             <td class="pedagogical track"><?php
                 $filter = array(tag_ids => array(27));
                 get_template_part('partials/event_list_topic');
@@ -139,7 +139,12 @@
         </tr>
         <tr>
             <td class="schedule-time">16:00</td>
-            <td></td>
+            <td class="policy track">
+                <?php
+                    $filter = array(tag_ids => array(35));
+                    get_template_part('partials/event_list_topic');
+                ?>
+            </td>
             <td class="research track"><?php
                 $filter = array(tag_ids => array(29));
                 get_template_part('partials/event_list_topic');
@@ -150,17 +155,11 @@
                 get_template_part('partials/event_list_topic');
                 ?>
             </td>
-            <td class="policy track">
-                <?php
-                    $filter = array(tag_ids => array(35));
-                    get_template_part('partials/event_list_topic');
-                ?>
-                <div class="poster track">
+            <td class="poster track">
                 <?php
                     $filter = array(post_ids => array(577));
                     get_template_part('partials/event_list_topic');
                 ?>
-                </div>
             </td>
             <td class="dissemination track"><?php
                     $filter = array(post_ids => array(525, 528, 527));

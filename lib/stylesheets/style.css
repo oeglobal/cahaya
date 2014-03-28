@@ -590,11 +590,6 @@ ul.menu {
 /* line 522, ../sass/style.scss */
 .track.poster {
   background-color: rgba(255, 238, 52, 0.5);
-  margin: 0 0px 0 -8px;
-  width: 108%;
-  display: block;
-  padding: 0 8px 0 8px;
-  height: 8em;
 }
 /* line 531, ../sass/style.scss */
 .track.box {
