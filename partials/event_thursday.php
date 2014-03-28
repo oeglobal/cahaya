@@ -102,7 +102,11 @@
         </tr>
         <tr>
         	<td class="schedule-time">16:00</td>
-        	<td></td>
+            <td class="policy track"><?php
+                $filter = array(tag_ids => array(38));
+                get_template_part('partials/event_list_topic');
+                ?>
+            </td>
             <td class="research track"><?php
                 $filter = array(tag_ids => array(32));
                 get_template_part('partials/event_list_topic');
@@ -113,11 +117,7 @@
                 get_template_part('partials/event_list_topic');
                 ?>
             </td>
-            <td class="policy track"><?php
-                $filter = array(tag_ids => array(38));
-                get_template_part('partials/event_list_topic');
-                ?>
-            </td>
+            <td></td>
             <td rowspan="2" class="dissemination track"><?php
                     $filter = array(post_ids => array(512, 521, 520, 519));
                     get_template_part('partials/event_list_topic');
