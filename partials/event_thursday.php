@@ -52,7 +52,7 @@
                 ?>
             </td>
             <td class="dissemination track"><?php
-                    $filter = array(post_ids => array(526, 525));
+                    $filter = array(post_ids => array(526, 529));
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
@@ -68,7 +68,7 @@
         	<td></td>
         	<td></td>
             <td rowspan="2" class="dissemination track"><?php
-                    $filter = array(post_ids => array(524, 523, 522));
+                    $filter = array(post_ids => array(524, 523, 530));
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
@@ -119,7 +119,7 @@
                 ?>
             </td>
             <td rowspan="2" class="dissemination track"><?php
-                    $filter = array(post_ids => array(521, 520, 519));
+                    $filter = array(post_ids => array(512, 521, 520, 519));
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>

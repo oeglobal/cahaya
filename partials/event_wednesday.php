@@ -127,7 +127,7 @@
                 ?>
             </td>
             <td class="dissemination track"><?php
-                    $filter = array(post_ids => array(533, 532, 531, 530));
+                    $filter = array(post_ids => array(533, 532, 531, 522));
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
@@ -167,7 +167,7 @@
                 </div>
             </td>
             <td class="dissemination track"><?php
-                    $filter = array(post_ids => array(529, 528, 527));
+                    $filter = array(post_ids => array(525, 528, 527));
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>

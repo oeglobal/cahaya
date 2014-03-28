@@ -72,7 +72,7 @@
                 ?>
             </td>
             <td class="dissemination track"><?php
-                    $filter = array(post_ids => array(516, 514, 512));
+                    $filter = array(post_ids => array(516, 514));
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
