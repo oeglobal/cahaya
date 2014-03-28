@@ -144,6 +144,12 @@
                     $filter = array(tag_ids => array(35));
                     get_template_part('partials/event_list_topic');
                 ?>
+                <div class="poster track">
+                    <?php
+                        $filter = array(post_ids => array(577));
+                        get_template_part('partials/event_list_topic');
+                    ?>
+                </div>
             </td>
             <td class="research track"><?php
                 $filter = array(tag_ids => array(29));
@@ -155,12 +161,7 @@
                 get_template_part('partials/event_list_topic');
                 ?>
             </td>
-            <td class="poster track">
-                <?php
-                    $filter = array(post_ids => array(577));
-                    get_template_part('partials/event_list_topic');
-                ?>
-            </td>
+            <td></td>
             <td class="dissemination track"><?php
                     $filter = array(post_ids => array(525, 528, 527));
                     get_template_part('partials/event_list_topic');
