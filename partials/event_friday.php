@@ -33,7 +33,11 @@
         </tr>
         <tr>
             <td class="schedule-time">10:30</td>
-            <td></td>
+            <td class="policy track"><?php
+                $filter = array(tag_ids => array(39));
+                get_template_part('partials/event_list_topic');
+                ?>
+            </td>
             <td class="research track"><?php
                 $filter = array(tag_ids => array(33));
                 get_template_part('partials/event_list_topic');
@@ -61,11 +65,7 @@
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
-            <td class="policy track"><?php
-                $filter = array(tag_ids => array(39));
-                get_template_part('partials/event_list_topic');
-                ?>
-            </td>
+            <td></td>
             <td class="pedagogical track"><?php
                 $filter = array(tag_ids => array(21));
                 get_template_part('partials/event_list_topic');
@@ -84,6 +84,6 @@
         <tr>
             <td class="schedule-time">16:00</td>
             <td colspan="7">End of day 3</td>
-        </tr>        
+        </tr>
     </tbody>
 </table>
