@@ -19,16 +19,15 @@
 </div>
 <div class="row">
 	<div class="small-4 columns">
+		<h3>Support</h3>
+		<p><a href="http://www.mizs.gov.si/en/" target="_blank"><img src="<?php echo $dir; ?>/logo-mizs.jpg" /></a></p>		
 		<h3>Media sponsor</h3>
-		<p>
-			<a href="http://openeducationeuropa.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-oe.png" /></a>
-		</p>		
+		<p><a href="http://openeducationeuropa.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-oe.png" /></a></p>
 	</div>
 	<div class="small-4 columns">
 		<h3>Patronage</h3>
+		<p><a href="http://en.unesco.org/"><img src="<?php echo $dir; ?>/logo-unesco.png" /></a></p>
 		<p><a href="http://www.up-rs.si/eng/"><img src="<?php echo $dir; ?>/logo-prs.png" /></a></p>
-		<h3>Support</h3>
-		<p><a href="http://www.mizs.gov.si/en/" target="_blank"><img src="<?php echo $dir; ?>/logo-mizs.jpg" /></a></p>		
 	</div>	
 	<div class="small-4 columns">
 		<h3>Organized by</h3>
