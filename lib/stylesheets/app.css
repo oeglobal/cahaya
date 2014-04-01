@@ -3469,3 +3469,47 @@ label.error {
   cursor: default;
   color: white;
 }
+
+/* Tables */
+/* line 80, ../../../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_tables.scss */
+table {
+  background: white;
+  margin-bottom: 1.25em;
+  border: solid 1px #dddddd;
+}
+/* line 42, ../../../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_tables.scss */
+table thead,
+table tfoot {
+  background: whitesmoke;
+  font-weight: bold;
+}
+/* line 48, ../../../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_tables.scss */
+table thead tr th,
+table thead tr td,
+table tfoot tr th,
+table tfoot tr td {
+  padding: 0.5em 0.625em 0.625em;
+  font-size: 0.875em;
+  color: #222222;
+  text-align: left;
+}
+/* line 59, ../../../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_tables.scss */
+table tr th,
+table tr td {
+  padding: 0.5625em 0.625em;
+  font-size: 0.875em;
+  color: #222222;
+}
+/* line 67, ../../../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_tables.scss */
+table tr.even, table tr.alt, table tr:nth-of-type(even) {
+  background: #f9f9f9;
+}
+/* line 74, ../../../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_tables.scss */
+table thead tr th,
+table tfoot tr th,
+table tbody tr td,
+table tr td,
+table tfoot tr td {
+  display: table-cell;
+  line-height: 1.125em;
+}

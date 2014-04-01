@@ -3,6 +3,7 @@
 	Template name: Proceedings
 */
 ?>
+<?php global $paper_category; ?>
 <?php get_header() ?>
 	<div class="row white blue-bottom">
 		<div class="small-12 columns">
@@ -12,37 +13,23 @@
 						<?php while ( have_posts() ) : the_post(); ?>
 							<h1><?php the_title(); ?></h1>
 							<div><?php the_content(); ?></div>
+
+							<h2>Open Educational Policy</h2>
+							<?php $paper_category = 'open-policy'; ?>
+							<?php get_template_part('partials/proceedings', 'papers_list'); ?>
+							
+							<h2>Pedagogical Impact</h2>
+							<?php $paper_category = 'pedagogical-track'; ?>
+							<?php get_template_part('partials/proceedings', 'papers_list'); ?>
+
+							<h2>Research and Technology</h2>
+							<?php $paper_category = 'research-and-technology'; ?>
+							<?php get_template_part('partials/proceedings', 'papers_list'); ?>
+							
 						<?php endwhile; ?>
 					<?php else : ?>
 						<h1>404 Not found</h1>
 					<?php endif; ?>
-				</div>
-			</div>
-			<div class="row post">
-				<div class="small-12 columns content">
-					<h2>Open Educational Policies papers</h2>
-
-					<?php $custom_query = new WP_Query(array(
-												'post_type' => AI1EC_POST_TYPE,
-												'tax_query' => array(
-															array(
-																'taxonomy' => 'events_categories', 
-																'field' => 'slug',
-																'terms' => 'open-policy'
-															)
-												),
-
-												'meta_key' =>  'paper_pdf',
-												'meta_value' => true,
-												'meta_compare' => '=',
-											));
-						
-						print_r($custom_query);
-					?>
-					<table>
-
-					</table>
-					
 				</div>
 			</div>
 			<?php get_template_part('logos'); ?>
