@@ -65,7 +65,11 @@
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
-            <td></td>
+            <td class="policy track"><?php
+                $filter = array(post_ids => array(771));
+                get_template_part('partials/event_list_topic');
+                ?>
+            </td>
             <td class="pedagogical track"><?php
                 $filter = array(tag_ids => array(21));
                 get_template_part('partials/event_list_topic');
