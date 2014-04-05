@@ -35,16 +35,26 @@
         </tr>
         <tr>
             <td class="schedule-time">10:30</td>
-            <td></td>
+            <td class="pedagogical track"><?php
+                $filter = array(tag_ids => array(25));
+                get_template_part('partials/event_list_topic');
+                ?>
+            </td>
             <td class="research track"><?php
                 $filter = array(tag_ids => array(30));
                 get_template_part('partials/event_list_topic');
                 ?>
             </td>
-            <td class="pedagogical track"><?php
-                $filter = array(tag_ids => array(25));
-                get_template_part('partials/event_list_topic');
+            <td class="gogn track"><?php
+                    $filter = array(post_ids => array(786, 787));
+                    get_template_part('partials/event_list_topic');
                 ?>
+                <div class="dissemination-inline track">
+                    <?php
+                        $filter = array(post_ids => array(788));
+                        get_template_part('partials/event_list_topic');
+                    ?>
+                </div>                
             </td>
             <td class="policy track"><?php
                 $filter = array(tag_ids => array(36));

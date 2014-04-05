@@ -596,25 +596,34 @@ ul.menu {
   padding: 0 8px 0 8px;
   height: 8em;
 }
-/* line 531, ../sass/style.scss */
+/* line 530, ../sass/style.scss */
+.track.dissemination-inline {
+  background-color: rgba(105, 210, 231, 0.5);
+  margin: 0 0px 0 -8px;
+  width: 108%;
+  display: block;
+  padding: 0 8px 0 8px;
+  height: 8em;
+}
+/* line 539, ../sass/style.scss */
 .track.box {
   width: 10px;
   height: 10px;
   display: inline-block;
 }
 
-/* line 534, ../sass/style.scss */
+/* line 542, ../sass/style.scss */
 .small-12.columns.content {
   padding-top: 30px;
   padding-bottom: 50px;
 }
 
-/* line 539, ../sass/style.scss */
+/* line 547, ../sass/style.scss */
 .sub-nav dt, .sub-nav dd {
   margin-left: 2em;
 }
 
-/* line 543, ../sass/style.scss */
+/* line 551, ../sass/style.scss */
 .names {
   font-size: 12px;
   color: #000;

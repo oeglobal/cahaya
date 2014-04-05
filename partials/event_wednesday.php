@@ -128,7 +128,7 @@
                 ?>
             </td>
             <td class="gogn track"><?php
-                    $filter = array(post_ids => array(720));
+                    $filter = array(post_ids => array(778, 779, 780, 781));
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
@@ -168,7 +168,7 @@
                 ?>
             </td>
             <td class="gogn track"><?php
-                    $filter = array(post_ids => array(720));
+                    $filter = array(post_ids => array(782, 783, 784, 785));
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
