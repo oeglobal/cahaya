@@ -519,8 +519,9 @@ ul.menu {
   padding-bottom: 10px;
   font-weight: bold;
   line-height: 20px;
+  color: black;
 }
-/* line 479, ../sass/style.scss */
+/* line 480, ../sass/style.scss */
 .custom-schedule li {
   list-style-type: none;
   padding-bottom: 5px;
@@ -529,67 +530,67 @@ ul.menu {
   border-bottom: 1px solid rgba(6, 6, 6, 0.2);
   text-rendering: optimizeLegibility;
 }
-/* line 487, ../sass/style.scss */
+/* line 488, ../sass/style.scss */
 .custom-schedule li:last-child {
   border-bottom: none;
 }
-/* line 491, ../sass/style.scss */
+/* line 492, ../sass/style.scss */
 .custom-schedule li a {
   color: #666;
 }
-/* line 494, ../sass/style.scss */
+/* line 495, ../sass/style.scss */
 .custom-schedule li a:hover {
   text-decoration: underline;
 }
-/* line 499, ../sass/style.scss */
+/* line 500, ../sass/style.scss */
 .custom-schedule .time-col {
   width: 4%;
 }
-/* line 502, ../sass/style.scss */
+/* line 503, ../sass/style.scss */
 .custom-schedule .room-col {
   width: 15%;
 }
 
-/* line 507, ../sass/style.scss */
+/* line 508, ../sass/style.scss */
 .legend {
   margin-top: 5px;
   list-style-type: none;
 }
-/* line 510, ../sass/style.scss */
+/* line 511, ../sass/style.scss */
 .legend li {
   line-height: 2em;
   padding-left: 10px;
 }
 
-/* line 517, ../sass/style.scss */
+/* line 518, ../sass/style.scss */
 .track.research {
   background-color: rgba(185, 222, 55, 0.3);
 }
-/* line 518, ../sass/style.scss */
+/* line 519, ../sass/style.scss */
 .track.dissemination {
   background-color: rgba(105, 210, 231, 0.5);
 }
-/* line 519, ../sass/style.scss */
+/* line 520, ../sass/style.scss */
 .track.policy {
   background-color: rgba(167, 219, 216, 0.3);
 }
-/* line 520, ../sass/style.scss */
+/* line 521, ../sass/style.scss */
 .track.pedagogical {
   background-color: rgba(102, 106, 200, 0.3);
 }
-/* line 521, ../sass/style.scss */
+/* line 522, ../sass/style.scss */
 .track.keynote {
   background-color: rgba(2, 106, 90, 0.3);
 }
-/* line 522, ../sass/style.scss */
+/* line 523, ../sass/style.scss */
 .track.openingupslovenia {
   background-color: rgba(240, 120, 24, 0.3);
 }
-/* line 523, ../sass/style.scss */
+/* line 524, ../sass/style.scss */
 .track.gogn {
   background-color: rgba(176, 199, 69, 0.3);
 }
-/* line 524, ../sass/style.scss */
+/* line 525, ../sass/style.scss */
 .track.poster {
   background-color: rgba(255, 238, 52, 0.5);
   margin: 0 0px 0 -8px;
@@ -598,7 +599,7 @@ ul.menu {
   padding: 0 8px 0 8px;
   height: 8em;
 }
-/* line 532, ../sass/style.scss */
+/* line 533, ../sass/style.scss */
 .track.dissemination-inline {
   background-color: rgba(105, 210, 231, 0.5);
   margin: 0 0px 0 -8px;
@@ -607,25 +608,25 @@ ul.menu {
   padding: 0 8px 0 8px;
   height: 8em;
 }
-/* line 541, ../sass/style.scss */
+/* line 542, ../sass/style.scss */
 .track.box {
   width: 10px;
   height: 10px;
   display: inline-block;
 }
 
-/* line 544, ../sass/style.scss */
+/* line 545, ../sass/style.scss */
 .small-12.columns.content {
   padding-top: 30px;
   padding-bottom: 50px;
 }
 
-/* line 549, ../sass/style.scss */
+/* line 550, ../sass/style.scss */
 .sub-nav dt, .sub-nav dd {
   margin-left: 2em;
 }
 
-/* line 553, ../sass/style.scss */
+/* line 554, ../sass/style.scss */
 .names {
   font-size: 12px;
   color: #000;
