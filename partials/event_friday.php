@@ -18,10 +18,14 @@
     <tbody>
         <tr>
             <td class="schedule-time">9:00</td>
-            <td class="keynote track"><?php
+            <td class="keynote track">
+                <?php
                     $filter = array(post_ids => array(568));
                     get_template_part('partials/event_list_topic');
                 ?>
+                <p class="names">
+                    Geoffrey J. Gordon
+                </p>
             </td>
             <td></td>
             <td></td>
