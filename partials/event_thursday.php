@@ -75,7 +75,12 @@
         </tr>
         <tr>
         	<td class="schedule-time">13:30</td>
-        	<td style="height:100px;">OCWC Meeting</td>
+        	<td style="height:100px;">
+                <?php
+                    $filter = array(post_ids => array(866));
+                    get_template_part('partials/event_list_topic');
+                ?>
+            </td>
         	<td></td>
         	<td></td>
         	<td></td>
