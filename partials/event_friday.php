@@ -61,7 +61,7 @@
         <tr>
             <td class="schedule-time">13:30</td>
             <td class="dissemination track"><?php
-                    $filter = array(post_ids => array(515, 513, 540));
+                    $filter = array(post_ids => array(515, 513, 540, 868));
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
@@ -76,7 +76,7 @@
                 ?>
             </td>
             <td class="dissemination track"><?php
-                    $filter = array(post_ids => array(516, 514));
+                    $filter = array(post_ids => array(516, 514, 871));
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
