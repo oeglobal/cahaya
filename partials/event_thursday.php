@@ -44,9 +44,10 @@
                 get_template_part('partials/event_list_topic');
                 ?>
             </td>
-            <td class="research track"><?php
-                $filter = array(tag_ids => array(30));
-                get_template_part('partials/event_list_topic');
+            <td class="research track">
+                <?php
+                    $filter = array(tag_ids => array(30));
+                    get_template_part('partials/event_list_topic');
                 ?>
             </td>
             <td class="gogn track">
@@ -97,9 +98,10 @@
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
-            <td class="research track"><?php
-                $filter = array(tag_ids => array(31));
-                get_template_part('partials/event_list_topic');
+            <td class="research track">
+                <?php
+                    $filter = array(tag_ids => array(31));
+                    get_template_part('partials/event_list_topic');
                 ?>
             </td>
             <td class="pedagogical track"><?php
@@ -129,9 +131,10 @@
                 get_template_part('partials/event_list_topic');
                 ?>
             </td>
-            <td class="research track"><?php
-                $filter = array(tag_ids => array(32));
-                get_template_part('partials/event_list_topic');
+            <td class="research track">
+                <?php
+                    $filter = array(tag_ids => array(32));
+                    get_template_part('partials/event_list_topic');
                 ?>
             </td>
             <td class="pedagogical track"><?php
