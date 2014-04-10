@@ -42,9 +42,10 @@
                 get_template_part('partials/event_list_topic');
                 ?>
             </td>
-            <td class="research track"><?php
-                $filter = array(tag_ids => array(33));
-                get_template_part('partials/event_list_topic');
+            <td class="research track">
+                <?php
+                    $filter = array(tag_ids => array(33));
+                    get_template_part('partials/event_list_topic');
                 ?>
             </td>
             <td class="pedagogical track"><?php
