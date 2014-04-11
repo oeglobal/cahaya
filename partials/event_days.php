@@ -18,7 +18,7 @@
 	</dl>
 	<dl class="sub-nav">
 		<dd><a href="/2014/pre-conference-workshops/">Workshops, Tuesday 22.4.</a></dd>
-		<?php if ($post->ID === 664) : ?>
+		<?php if ($post->ID === 880) : ?>
 			<dd><a href="/2014/webcamp-ljubljana/">WebCamp, Saturday 26.4.</a></dd>
 		<?php else: ?>
 			<dd class="active"><a href="/2014/webcamp-ljubljana/">WebCamp, Saturday 26.4.</a></dd>
