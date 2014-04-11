@@ -182,7 +182,7 @@
         </tr>
         <tr>
             <td class="schedule-time">20:00</td>
-            <td colspan="6">Program committe & invited speakers dinner</td>
+            <td colspan="6">Program committee & invited speakers dinner</td>
         </tr>
     </tbody>
 </table>
