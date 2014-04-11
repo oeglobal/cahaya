@@ -1,6 +1,6 @@
 <?php
 /*
-	Template name: Full width page
+	Template name: Mymeedia
 */
 ?>
 <?php get_header() ?>
@@ -46,7 +46,7 @@
 							<script type="text/javascript" src="http://mymeedia.com/public/javascripts/mymeedia_embed_ocwc.js"></script>
 						</div>
 						<!-- End of mymeedia_ocwc_embed -->
-					
+
 						<?php endwhile; ?>
 					<?php else : ?>
 						<h1>404 Not found</h1>
