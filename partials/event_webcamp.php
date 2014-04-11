@@ -15,7 +15,12 @@
     <tbody>
         <tr>
             <td class="schedule-time">8:30</td>
-            <td colspan="3">Registration</td>
+            <td colspan="3">
+            	Registration
+            	<ul>
+            		<li><strong>OCWC Global Attendees, please let us know at <a href="mailto:info@webcamp.si">info@webcamp.si</a> if you plan to attend so we can send you your free ticket.</strong></li>
+            	</ul>
+            </td>
         </tr>
         <tr>
         	<td class="schedule-time">8:30</td>
