@@ -10,10 +10,19 @@
 										)
 							),
 
-							'meta_key' =>  'paper_pdf',
-							'meta_value' => false,
-							'meta_compare' => '!=',
-							'orderby' => 'paper_pdf+0, paper_pdf', // http://matthewturland.com/2008/11/05/natural-ordering-in-mysql/
+							'meta_query' => array(
+										array(
+											'key' => 'paper_pdf',
+											'value' => false,
+											'compare' => '!='
+										)
+							),
+
+							'meta_key' =>  'paper_number',
+							'orderby' => 'meta_value_num',
+							'order' => 'ASC',
+							'posts_per_page' => -1
+
 						));
 ?>
 
