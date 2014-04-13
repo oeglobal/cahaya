@@ -126,7 +126,7 @@
                 ?>
             </td>
             <td class="gogn track">
-                <a class="topic-title" href="/2014/ai1ec_event/go-gn-research-track/">GO-GN Research Track</a>
+                <a class="topic-title" href="/2014/ai1ec_event/go-gn-research-track/">GO-GN Research Track: Policy and more</a>
                 <?php
                     $filter = array(post_ids => array(778, 779, 780, 781));
                     get_template_part('partials/event_list_topic');
@@ -169,7 +169,7 @@
                 ?>
             </td>
             <td class="gogn track">
-                <a class="topic-title" href="/2014/ai1ec_event/go-gn-research-track/">GO-GN Research Track</a>
+                <a class="topic-title" href="/2014/ai1ec_event/go-gn-research-track/">GO-GN Research Track: MOOC and Open Textbooks</a>
                 <?php
                     $filter = array(post_ids => array(782, 783, 784, 785));
                     get_template_part('partials/event_list_topic');
