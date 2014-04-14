@@ -132,9 +132,14 @@
 				}
 			?>
 		</div>
+		<?php /*
 		<div class="small-6 columns">
 				<a class="twitter-timeline"  href="https://twitter.com/search?q=%23ocwcglobal" data-widget-id="251736808315043840">Tweets about "#ocwcglobal"</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+		*/ ?>
+		<div class="small-6 columns">
+			<?php get_template_part('partials/mymeedia', 'widget'); ?>
 		</div>
 	</div>
 	<div class="row insights white">
