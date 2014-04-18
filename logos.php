@@ -3,7 +3,7 @@
 	<div class="small-4 columns">
 		<h3>Platinum sponsor</h3>
 		<p><a href="http://www.posta.si" target="_blank"><img src="<?php echo $dir; ?>/logo-posta.jpg" /></a></p>
-
+		<br /><br />
 		<h3>Gold sponsor</h3>
 		<p><a href="http://videolectures.net/" target="_blank"><img src="<?php echo $dir; ?>/logo-vidlec.gif" /></a></p>
 	</div>
@@ -16,8 +16,9 @@
 		</p>
 	</div>
 	<div class="small-4 columns">
-		<h3>Bronze sponsor</h3>
+		<h3>Bronze sponsors</h3>
 		<p><a href="http://www.elektro-gorenjska.si/" target="_blank"><img src="<?php echo $dir; ?>/logo-eg.jpg" /></a></p>
+		<p><a href="http://www.iolar.com/eng/" target="_blank"><img src="<?php echo $dir; ?>/logo-iolar.png" /></a></p>
 	</div>
 </div>
 <div class="row">
