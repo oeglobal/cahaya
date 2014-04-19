@@ -28,14 +28,16 @@
 
 <table>
 <?php while ( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
-	<tr>
-		<?php $paper_pdf = get_field('paper_pdf'); ?>
-		<!-- <td><?php the_field('paper_number'); ?></td> -->
-		<td><a href="<?php echo $paper_pdf['url']; ?>">PDF</a></td>
-		<td class="paper-author"><?php the_field('event_speaker'); ?></td>
-		<td><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
-		
-	</tr>
+	<?php if ( !get_field('openpraxis_paper') === true ) : ?>
+		<tr>
+			<?php $paper_pdf = get_field('paper_pdf'); ?>
+			<!-- <td><?php the_field('paper_number'); ?></td> -->
+			<td><a href="<?php echo $paper_pdf['url']; ?>">PDF</a></td>
+			<td class="paper-author"><?php the_field('event_speaker'); ?></td>
+			<td><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
+			
+		</tr>
+	<?php endif; ?>
 <?php endwhile; ?>
 </table>
 <?php wp_reset_query(); ?>
