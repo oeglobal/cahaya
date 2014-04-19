@@ -19,6 +19,7 @@
 		<h3>Bronze sponsors</h3>
 		<p><a href="http://www.elektro-gorenjska.si/" target="_blank"><img src="<?php echo $dir; ?>/logo-eg.jpg" /></a></p>
 		<p><a href="http://www.iolar.com/eng/" target="_blank"><img src="<?php echo $dir; ?>/logo-iolar.png" /></a></p>
+		<p><a href="http://www.unicreditbank.si/?language=ENG" target="_blank"><img src="<?php echo $dir; ?>/logo-unicredit.png" /></a></p>
 	</div>
 </div>
 <div class="row">
