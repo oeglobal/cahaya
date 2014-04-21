@@ -2,7 +2,6 @@
 
 <?php
     $filter = array(tag_ids => array(28));
-    
     $session_time = 'Wednesday 23rd, 13:30, Union Hall';
     $chair = 'Larry	Cooperman';
     get_template_part('partials/event_list_topic');
@@ -11,7 +10,7 @@
 <?php
     $filter = array(tag_ids => array(29));
     $session_time = 'Wednesday 23rd, 16:00, White Room 1';
-    $chair = 'Lyndon Nixon';
+    $chair = 'Rayid Ghani';
     get_template_part('partials/event_list_topic');
 ?>
 <br /><br />
@@ -32,7 +31,7 @@
 <?php
     $filter = array(tag_ids => array(32));
     $session_time = 'Thursday 24th, 16:00, White Room 1';
-    $chair = 'Rayid	Ghani';
+    $chair = 'Lyndon Nixon';
     get_template_part('partials/event_list_topic');
 ?>
 <br /><br />
