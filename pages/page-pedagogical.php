@@ -1,6 +1,6 @@
 <?php
 /*
-	Template name: Policy Track
+	Template name: Pedagogical Track
 */
 ?>
 <?php get_header() ?>
