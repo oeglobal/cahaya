@@ -31,7 +31,7 @@
 <?php
     $filter = array(tag_ids => array(32));
     $session_time = 'Thursday 24th, 16:00, White Room 1';
-    $chair = 'Lyndon Nixon';
+    $chair = 'Yannick Prié';
     get_template_part('partials/event_list_topic');
 ?>
 <br /><br />
