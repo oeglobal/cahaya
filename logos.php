@@ -25,9 +25,11 @@
 <div class="row">
 	<div class="small-4 columns">
 		<h3>Support</h3>
-		<p><a href="http://www.mizs.gov.si/en/" target="_blank"><img src="<?php echo $dir; ?>/logo-mizs.jpg" /></a></p>		
+		<p><a href="http://www.mizs.gov.si/en/" target="_blank"><img src="<?php echo $dir; ?>/logo-mizs.jpg" /></a></p>
 		<h3>Media sponsor</h3>
 		<p><a href="http://openeducationeuropa.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-oe.png" /></a></p>
+		<h3>In collaboration with</h3>
+		<p><a href="http://openpraxis.org/" target="_blank"><img src="<?php echo $dir; ?>/logo-openpraxis.png" /></a></p>
 	</div>
 	<div class="small-4 columns">
 		<h3>Patronage</h3>
