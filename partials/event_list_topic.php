@@ -5,7 +5,7 @@
 		   $chair,
 		   $session_time;
 	
-	$time = $ai1ec_events_helper->gmt_to_local( Ai1ec_Time_Utility::current_time() );
+	$time = $ai1ec_events_helper->gmt_to_local( Ai1ec_Time_Utility::current_time() - (86400*360) );
 	$bits = $ai1ec_events_helper->gmgetdate( $time );
 
 	$start = gmmktime(0,0,0,$bits['mon'],$bits['mday'],$bits['year']);
