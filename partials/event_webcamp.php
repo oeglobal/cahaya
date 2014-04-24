@@ -2,6 +2,8 @@
     <?php get_template_part('partials/event_days'); ?>
 </div>
 
+<p>WebCamp is organized in collaboration with <a href="http://www.fri.uni-lj.si/en/">Faculty of Computer and Information Science, University of Ljubljana.</a></p>
+
 <table class="custom-schedule">
     <thead>
         <tr>
