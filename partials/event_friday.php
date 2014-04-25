@@ -54,7 +54,7 @@
                 ?>
             </td>
             <td class="dissemination track"><?php
-                    $filter = array(post_ids => array(518, 517));
+                    $filter = array(post_ids => array(576, 518, 517));
                     get_template_part('partials/event_list_topic');
                 ?>
             </td>
