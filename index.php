@@ -10,6 +10,12 @@
 						<?php while ( have_posts() ) : the_post(); ?>
 							<h1><?php the_title(); ?></h1>
 							<div><?php the_content(); ?></div>
+
+							<?php if ( get_field('slideshare_url') ) : ?>
+								<h2>Presentation</h2>
+								<?php $html = wp_oembed_get(get_field('slideshare_url')); ?>
+								<?php echo $html; ?>
+							<?php endif; ?>
 						<?php endwhile; ?>
 					<?php else : ?>
 						<h1>404 Not found</h1>
