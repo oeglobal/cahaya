@@ -564,3 +564,16 @@ ul.menu {
         margin-left: 1em;
     }
 }
+
+.vln {
+    position: relative;
+    width: 70%;
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+    }
+    .overlay:hover {
+        background-color: rgba(180, 180, 180, 0.4);
+    }
+}

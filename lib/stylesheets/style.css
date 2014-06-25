@@ -639,3 +639,18 @@ ul.menu {
   list-style-position: outside;
   margin-left: 1em;
 }
+
+/* line 568, ../sass/style.scss */
+.vln {
+  position: relative;
+  width: 70%;
+}
+/* line 572, ../sass/style.scss */
+.vln .overlay {
+  position: absolute;
+  width: 100%;
+}
+/* line 576, ../sass/style.scss */
+.vln .overlay:hover {
+  background-color: rgba(180, 180, 180, 0.4);
+}
