@@ -30,6 +30,7 @@
 		<p><a href="http://openeducationeuropa.eu/" target="_blank"><img src="<?php echo $dir; ?>/logo-oe.png" /></a></p>
 		<h3>In collaboration with</h3>
 		<p><a href="http://openpraxis.org/" target="_blank"><img src="<?php echo $dir; ?>/logo-openpraxis.png" /></a></p>
+		<p><a href="http://mymeedia.com/" target="_blank"><img src="<?php echo $dir; ?>/logo-mymeedia.png" /></a></p>
 	</div>
 	<div class="small-4 columns">
 		<h3>Patronage</h3>
