@@ -139,7 +139,7 @@
 		</div>
 		*/ ?>
 		<div class="small-6 columns">
-			<?php get_template_part('partials/mymeedia', 'widget'); ?>
+			<?php //get_template_part('partials/mymeedia', 'widget'); ?>
 		</div>
 	</div>
 	<div class="row insights white">
